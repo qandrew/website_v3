@@ -11,6 +11,7 @@ Here are some of the must haves in the website
   - however, Markdown can also be limiting in expression, so I would also like the ability to insert custom HTML.
 - **Flexibilty to embed non-static content**: if I want to be able to insert an animation, or something that needs tools beyond markdown / html, the framework should be flexible enough to support. See *mdx, frontmatter*.
 - **Good looking UI**: I want a blog that looks nice, with good navigation, and the ability to add certain UI / UX features (ie parallax). The website needs to look good both on mobile and desktop.
+- **Navigation Features**: in addition to viewing blog posts, I'd like customizability in tags, categories, and pages to show grouping.
 - **easy to deploy**: multi docker container websites could be more complicated to deploy and I am not sure how much money I want to spend. Github offers free static website hosting, so if I can compile a website (without a backend) this might be easier.
 
 Here are some optional features that should be lower in priority
@@ -42,6 +43,9 @@ In terms of what to get done, I foresee the following:
 ## References
 
 [Static Blog With Next.js and Markdown - YouTube](https://www.youtube.com/watch?v=MrjeefD8sac)
+
 [How I Built my Blog using MDX, Next.js, and React](https://www.joshwcomeau.com/blog/how-i-built-my-blog/)
+
 [How To Build and Deploy Your Personal Blog With Next.js \| Kalo Pilato](https://www.kalopilato.com/blog/how-to-build-and-deploy-your-personal-blog-with-next-js)
+
 [Learn Next.js](https://nextjs.org/learn)

@@ -1,7 +1,7 @@
 # website_v3
 nextjs based blog
 
-This is a starter template for [Learn Next.js](https://nextjs.org/learn). This repo uses the blog posts in `posts`, written in markdown, and compiles the content to the website.
+This is a starter template for [Learn Next.js](https://nextjs.org/learn). This repo uses the blog posts in `posts`, written in markdown, and compiles the content to the website. See the [design doc](/docs/design.md) for more details.
 
 ## How to use this repo
 
