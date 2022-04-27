@@ -20,11 +20,11 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+      {/* TODO: make about section a component, read from markdown */}
       <section className={utilStyles.headingMd}>
-        <p>Hello, this is <b>Andrew</b></p>
+        <p>Hello, I'm <b>Andrew</b>!</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          Welcome to my website! This website is a creative outlet for me to blog about things I care about in computer science, the outdoors, and photography.
         </p>
       </section>
 
@@ -43,6 +43,13 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
+      </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <br />
+        <p>
+          (This website is built from following {' '}
+          <a href="https://nextjs.org/learn">the Next.js tutorial</a>.)
+        </p>
       </section>
     </Layout>
   )
