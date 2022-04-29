@@ -16,8 +16,6 @@ Much of my thinking and worldviews have been shaped by some books I've much enjo
 
 **The Fountainhead** / **Atlas Shrugged** by Ayn Rand: I read The Fountainhead as part of my senior project for high school, after being introduced to it through Perks of Being a Wallflower, and it really shaped my late high school thoughts and helped me have confidence in myself going into college. As a follow up, I also read Atlas Shrugged (and later We the Living) but I would recommend first reading The Fountainhead, since it is shorter and contains most of the same ideas.
 
-<!-- **Norwegian Wood** by Haruki Murakami: Another book dealing with the loss of innocence, the reading well timed during the fall of my freshman year at MIT. -->
-
 **Principles of Mathematical Analysis** by Walter Rudin: This isn’t fiction, in fact it’s a math textbook, but the rigor of theoretical math here really helped me shape my logical clarity. I'll also note that 18.100B my sophomore spring at MIT was a struggle 😂.
 
 **The Power Broker** (and **The Years of Lyndon Johnson**) by Robert Caro:  I read these two books during the COVID pandemic, the first one on Robert Moses because I was interested in transportation policy, the second because Caro is an amazing biographer and LBJ is a fascinating subject. Caro is so insightful in his political analysis of power, and the book has truly changed the way I view a lot of workplace relationships and people politics in general. As one online reviewer said, reading The Power Broker most represented his transition into adulthood (understanding how to handle relationships, maybe for personal gains or mutual interest or what not) even more so than graduating college, getting a first job, or a relationship.
