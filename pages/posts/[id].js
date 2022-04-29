@@ -3,6 +3,42 @@ import Date from '../../components/date'
 import Layout from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import utilStyles from '../../styles/utils.module.css'
+import ReactMarkdown from 'react-markdown'
+import Image from 'next/image'
+
+const MarkdownComponents = {
+  p: (paragraph) => {
+      var _a;
+      const { node } = paragraph;
+      if (node.children[0].tagName === "img") {
+          const image = node.children[0];
+          const metastring = image.properties.alt;
+          const alt = metastring === null || metastring === void 0 ? void 0 : metastring.replace(/ *\{[^)]*\} */g, "");
+          const metaWidth = metastring.match(/{([^}]+)x/);
+          // FRAGILE: xxx cannot be alt text
+          const metaHeight = metastring.match(/xxx([^}]+)}/);
+          const width = metaWidth ? metaWidth[1] : "768";
+          const height = metaHeight ? metaHeight[1] : "432";
+          const isPriority = metastring === null || metastring === void 0 ? void 0 : metastring.toLowerCase().match('{priority}');
+          const hasCaption = metastring === null || metastring === void 0 ? void 0 : metastring.toLowerCase().includes('{caption:');
+          const caption = (_a = metastring === null || metastring === void 0 ? void 0 : metastring.match(/{caption: (.*?)}/)) === null || _a === void 0 ? void 0 : _a.pop();
+          return (
+            <div className="postImgWrapper">
+              <Image
+                src={image.properties.src}
+                width={width}
+                height={height}
+                className="postImg"
+                alt={alt}
+                priority={isPriority}
+              />
+                {hasCaption ? <div className="caption" aria-label={caption}>{caption}</div> : null}
+            </div>
+          )
+      }
+      return <p>{paragraph.children}</p>
+  },
+};
 
 
 export async function getStaticPaths() {
@@ -33,7 +69,11 @@ export default function Post({ postData }) {
         <div className={utilStyles.lightText}>
           Last Updated: <Date dateString={postData.date} />
         </div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <ReactMarkdown
+          // className={markdownStyles["markdown"]}
+          children={postData.contentMarkdown}
+          components={MarkdownComponents}
+        />
       </article>
     </Layout>
   )
