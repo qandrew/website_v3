@@ -5,12 +5,39 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import utilStyles from '../../styles/utils.module.css'
 import ReactMarkdown from 'react-markdown'
 import Image from 'next/image'
+import React from 'react'
 
 const renderers = {
   image: image => {
-    return <p>lol</p>
+    return <Image src={image.src} alt={image.alt} height="400" width="355" />
+    // return <p>lol</p>
   },
 }
+
+const MarkdownComponents = {
+  p: (paragraph) => {
+      var _a;
+      const { node } = paragraph;
+      if (node.children[0].tagName === "img") {
+          const image = node.children[0];
+          const metastring = image.properties.alt;
+          const alt = metastring === null || metastring === void 0 ? void 0 : metastring.replace(/ *\{[^)]*\} */g, "");
+          const metaWidth = metastring.match(/{([^}]+)x/);
+          // FRAGILE: xxx cannot be alt text
+          const metaHeight = metastring.match(/xxx([^}]+)}/);
+          const width = metaWidth ? metaWidth[1] : "768";
+          const height = metaHeight ? metaHeight[1] : "432";
+          const isPriority = metastring === null || metastring === void 0 ? void 0 : metastring.toLowerCase().match('{priority}');
+          const hasCaption = metastring === null || metastring === void 0 ? void 0 : metastring.toLowerCase().includes('{caption:');
+          const caption = (_a = metastring === null || metastring === void 0 ? void 0 : metastring.match(/{caption: (.*?)}/)) === null || _a === void 0 ? void 0 : _a.pop();
+          return (React.createElement("div", { className: "postImgWrapper" },
+              React.createElement(Image, { src: image.properties.src, width: width, height: height, className: "postImg", alt: alt, priority: isPriority }),
+              hasCaption ? React.createElement("div", { className: "caption", "aria-label": caption }, caption) : null));
+      }
+      return React.createElement("p", null, paragraph.children);
+  },
+};
+
 
 export async function getStaticPaths() {
   const paths = getAllPostIds()
@@ -44,7 +71,8 @@ export default function Post({ postData }) {
           // className={markdownStyles["markdown"]}
           // children={postData.contentHtml}
           children={postData.contentMarkdown}
-          renderers={renderers}
+          // renderers={renderers}
+          components={MarkdownComponents}
         />
         {/* <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} /> */}
       </article>
