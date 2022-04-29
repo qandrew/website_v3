@@ -3,7 +3,14 @@ import Date from '../../components/date'
 import Layout from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import utilStyles from '../../styles/utils.module.css'
+import ReactMarkdown from 'react-markdown'
+import Image from 'next/image'
 
+const renderers = {
+  image: image => {
+    return <p>lol</p>
+  },
+}
 
 export async function getStaticPaths() {
   const paths = getAllPostIds()
@@ -33,7 +40,13 @@ export default function Post({ postData }) {
         <div className={utilStyles.lightText}>
           Last Updated: <Date dateString={postData.date} />
         </div>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+        <ReactMarkdown
+          // className={markdownStyles["markdown"]}
+          // children={postData.contentHtml}
+          children={postData.contentMarkdown}
+          renderers={renderers}
+        />
+        {/* <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} /> */}
       </article>
     </Layout>
   )
