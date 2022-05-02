@@ -14,7 +14,7 @@ export async function getStaticProps() {
   }
 }
 
-export default function Home({ allPostsData }) {
+function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
@@ -45,6 +45,10 @@ export default function Home({ allPostsData }) {
         </ul>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Photography</h2>
+        <Link href={`photos`}>Click Here</Link>
+      </section>
+      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <br />
         <p>
           (This website is built from following {' '}
@@ -54,3 +58,5 @@ export default function Home({ allPostsData }) {
     </Layout>
   )
 }
+
+export default Home;
