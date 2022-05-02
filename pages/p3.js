@@ -55,7 +55,7 @@ export default function MyModal() {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                <Dialog.Panel className="w-full h-5/6 transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+                <Dialog.Panel className="w-full max-h-5/6 transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
                   <Dialog.Title
                     as="h3"
                     className="text-lg font-medium leading-6 text-gray-900"
@@ -69,19 +69,23 @@ export default function MyModal() {
                     </p>
                   </div>
 
-                  <Image
-                    alt=""
-                    src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.15752-9/273735639_1928258397336422_5724303389524210458_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=ae9488&_nc_ohc=bjF2wIixhKUAX8t-NNn&_nc_ht=scontent-sjc3-1.xx&oh=03_AVILQD0_X25gWx5jPlS52iH91-JCkVKEuiGYFIK69_9WJw&oe=6295BDBF"
-                    layout="fill"
-                    objectFit="cover"
-                    className={cn(
-                      'group-hover:opacity-75 duration-700 ease-in-out',
-                      isLoading
-                        ? 'grayscale blur-2xl scale-110'
-                        : 'grayscale-0 blur-0 scale-100'
-                    )}
-                    onLoadingComplete={() => setLoading(false)}
-                  />
+                  <div className="mt-4">
+                    <Image
+                      alt=""
+                      src="https://scontent-sjc3-1.xx.fbcdn.net/v/t1.15752-9/273735639_1928258397336422_5724303389524210458_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=ae9488&_nc_ohc=bjF2wIixhKUAX8t-NNn&_nc_ht=scontent-sjc3-1.xx&oh=03_AVILQD0_X25gWx5jPlS52iH91-JCkVKEuiGYFIK69_9WJw&oe=6295BDBF"
+                      width="80%"
+                      height="40%"
+                      layout="responsive"
+                      objectFit="cover"
+                      className={cn(
+                        'group-hover:opacity-75 duration-700 ease-in-out',
+                        isLoading
+                          ? 'grayscale blur-2xl scale-110'
+                          : 'grayscale-0 blur-0 scale-100'
+                      )}
+                      onLoadingComplete={() => setLoading(false)}
+                    />
+                  </div>
 
                   <div className="mt-4">
                     <button
