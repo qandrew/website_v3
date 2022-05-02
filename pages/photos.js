@@ -1,19 +1,11 @@
-import { createClient } from "@supabase/supabase-js";
 import { useState } from "react";
 import Image from "next/image";
-
-// stored in .env.local
-const supabaseAdmin = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL || '',
-  process.env.SUPABASE_SERVICE_ROLE_KEY || ''
-);
+import imageList from "../public/images.json"
 
 export async function getStaticProps() {
-  const { data } = await supabaseAdmin.from('images').select('*');
-  console.log(data);
   return {
     props: {
-      images: data
+      images: imageList.images
     }
   };
 }
