@@ -5,11 +5,14 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import utilStyles from '../../styles/utils.module.css'
 import ReactMarkdown from 'react-markdown'
 import Image from 'next/image'
+import rehypeRaw from 'rehype-raw'
+
 
 const MarkdownComponents = {
   p: (paragraph) => {
       var _a;
       const { node } = paragraph;
+      console.log(paragraph);
       if (node.children[0].tagName === "img") {
           const image = node.children[0];
           const metastring = image.properties.alt;
@@ -32,7 +35,7 @@ const MarkdownComponents = {
                 alt={alt}
                 priority={isPriority}
               />
-                {hasCaption ? <div className="caption" aria-label={caption}>{caption}</div> : null}
+                {hasCaption ? <div className="caption" aria-label={caption}><i>{caption}</i></div> : null}
             </div>
           )
       }
@@ -71,6 +74,7 @@ export default function Post({ postData }) {
         </div>
         <ReactMarkdown
           // className={markdownStyles["markdown"]}
+          rehypePlugins={[rehypeRaw]}
           children={postData.contentMarkdown}
           components={MarkdownComponents}
         />
