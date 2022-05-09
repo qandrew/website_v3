@@ -55,13 +55,13 @@ The cause of the dark orange skies originated from smoke in the high atmosphere,
 
 However, the internet still functioned, and with the slight difference of needing my room lights on, I could still proceed with work for the day. I will admit, it was not the most productive work day, as the orange skies induced a natural state of drowsiness in contrast to the blue light in the sky that stimulates your alertness. I wanted to take pictures of the city, though by the time work was over in the afternoon, the unique orange began to fade to dull gray. 
 
-<center>
-  <img style="width:40%;" src="/images/fire/duncan.jpg" alt="Apocalypse">
-  <img style="width:40%;" src="/images/fire/dark.jpg" alt="Too dark for the outside">
-</center>
-<center>
+<div className="justify-center flex flex-row">
+  <img className="p-4" style="width:50%;" src="/images/fire/duncan.jpg" alt="Apocalypse" />
+  <img className="p-4" style="width:50%;" src="/images/fire/dark.jpg" alt="Too dark for the outside">
+</div>
+<div class="justify-center flex flex-row">
   <i>Left: our street view at noon. Right: a reference picture to show how dark it was outside at midday.</i>
-</center>
+</div>
 
 We have seen how fragile our ecosystem is. If this doesn't wake us up to the adverse effects of climate change, what will? And if we are woke, then *what can we do?*
 

@@ -12,12 +12,11 @@ const MarkdownComponents = {
   p: (paragraph) => {
       var _a;
       const { node } = paragraph;
-      console.log(paragraph);
       if (node.children[0].tagName === "img") {
           const image = node.children[0];
           const metastring = image.properties.alt;
           const alt = metastring === null || metastring === void 0 ? void 0 : metastring.replace(/ *\{[^)]*\} */g, "");
-          const metaWidth = metastring.match(/{([^}]+)x/);
+          const metaWidth = metastring.match(/{([^}]+)xxx/);
           // FRAGILE: xxx cannot be alt text
           const metaHeight = metastring.match(/xxx([^}]+)}/);
           const width = metaWidth ? metaWidth[1] : "768";
@@ -40,6 +39,10 @@ const MarkdownComponents = {
           )
       }
       return <p>{paragraph.children}</p>
+  },
+  // TODO: deprecate all mention of center?
+  center: (nextimage) => {
+    return <div className="justify-center flex flex-row"> {nextimage.children} </div>
   },
 };
 
