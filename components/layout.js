@@ -4,9 +4,11 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Andrew Xia'
 const imageLoc = '/images/me.jpg'
-export const siteTitle = 'Andrew Xia\'s Blog'
+
+// TODO: consider moving to constants.js
+export const name = 'Andrew Xia'
+export const siteTitle = name + '\'s Blog'
 
 export default function Layout({ children, home }) {
   return (
