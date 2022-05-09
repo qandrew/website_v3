@@ -3,8 +3,6 @@ title: 'Books that have influenced me the most'
 date: '2020-11-24'
 ---
 
-![NextJS logo {400xxx200} {priority} {caption: Photo by Someone}](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/440px-Nextjs-logo.svg.png)
-
 2020 has been a year of quarantine and shelter in place. One hobby that I've picked up significantly is that of reading. This year is by far the most I've read since high school, when books were mandatory reading assignments for our English class. With more time and less places to go physically, books have offered my mind to explore many thoughts.
 
 Much of my thinking and worldviews have been shaped by some books I've much enjoyed. Here is a quick summary of the books that have influenced my thinking the most over the years.

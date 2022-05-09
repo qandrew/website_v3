@@ -31,10 +31,11 @@ const MarkdownComponents = {
                 width={width}
                 height={height}
                 className="postImg"
+                objectFit="contain"
                 alt={alt}
                 priority={isPriority}
               />
-                {hasCaption ? <div className="caption" aria-label={caption}><i>{caption}</i></div> : null}
+                {hasCaption ? <div className="caption justify-center flex flex-row" aria-label={caption}><i>{caption}</i></div> : null}
             </div>
           )
       }
