@@ -79,21 +79,21 @@ function BlurImage({ image }) {
                   leaveFrom="opacity-100 scale-100"
                   leaveTo="opacity-0 scale-95"
                 >
-                  <Dialog.Panel className="w-full max-h-5/6 transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+                  <Dialog.Panel className="w-full max-h-screen transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
                     <Dialog.Title
                       as="h3"
                       className="text-lg font-medium leading-6 text-gray-900"
                     >
                       {image.name}
                     </Dialog.Title>
-                    <div className="mt-4">
+                    <div className="mt-4 max-h-5/6">
                       <Image
                         alt=""
                         src={image.imageSrc}
                         width="80%"
                         height="40%"
                         layout="responsive"
-                        objectFit="cover"
+                        objectFit="contain"
                         className={cn(
                           'group-hover:opacity-75 duration-700 ease-in-out',
                           isLoading
