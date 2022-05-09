@@ -5,6 +5,8 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import utilStyles from '../../styles/utils.module.css'
 import ReactMarkdown from 'react-markdown'
 import Image from 'next/image'
+import rehypeRaw from 'rehype-raw'
+
 
 const MarkdownComponents = {
   p: (paragraph) => {
@@ -14,7 +16,7 @@ const MarkdownComponents = {
           const image = node.children[0];
           const metastring = image.properties.alt;
           const alt = metastring === null || metastring === void 0 ? void 0 : metastring.replace(/ *\{[^)]*\} */g, "");
-          const metaWidth = metastring.match(/{([^}]+)x/);
+          const metaWidth = metastring.match(/{([^}]+)xxx/);
           // FRAGILE: xxx cannot be alt text
           const metaHeight = metastring.match(/xxx([^}]+)}/);
           const width = metaWidth ? metaWidth[1] : "768";
@@ -29,14 +31,19 @@ const MarkdownComponents = {
                 width={width}
                 height={height}
                 className="postImg"
+                objectFit="contain"
                 alt={alt}
                 priority={isPriority}
               />
-                {hasCaption ? <div className="caption" aria-label={caption}>{caption}</div> : null}
+                {hasCaption ? <div className="caption justify-center flex flex-row" aria-label={caption}><i>{caption}</i></div> : null}
             </div>
           )
       }
       return <p>{paragraph.children}</p>
+  },
+  // TODO: deprecate all mention of center?
+  center: (nextimage) => {
+    return <div className="justify-center flex flex-row"> {nextimage.children} </div>
   },
 };
 
@@ -71,6 +78,7 @@ export default function Post({ postData }) {
         </div>
         <ReactMarkdown
           // className={markdownStyles["markdown"]}
+          rehypePlugins={[rehypeRaw]}
           children={postData.contentMarkdown}
           components={MarkdownComponents}
         />
