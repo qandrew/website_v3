@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Date from '../../components/date'
-import Layout from '../../components/layout'
+import Layout, { name } from '../../components/layout'
 import { getAllPostIds, getPostData } from '../../lib/posts'
 import utilStyles from '../../styles/utils.module.css'
 import ReactMarkdown from 'react-markdown'
@@ -62,7 +62,7 @@ export default function Post({ postData }) {
   return (
     <Layout>
       <Head>
-        <title>{postData.title} | Andrew Xia</title>
+        <title>{postData.title} | {name}</title>
       </Head>
       <article className='prose max-w-none'>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
