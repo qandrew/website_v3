@@ -62,7 +62,7 @@ export default function Post({ postData }) {
   return (
     <Layout>
       <Head>
-        <title>{postData.title}</title>
+        <title>{postData.title} | Andrew Xia</title>
       </Head>
       <article className='prose max-w-none'>
         <h1 className={utilStyles.headingXl}>{postData.title}</h1>
