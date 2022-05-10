@@ -44,6 +44,6 @@ Other mountains: Pico Austria in Bolivia, attempt on Cerro El Plomo, attempt on 
 - *Apr 2021*, Mauna Kea. [Strava](https://www.strava.com/activities/5112187456)
 - *Jul 2020*, Whitney. Highest point in contiguous United States. [Strava](https://www.strava.com/activities/3824802590)
 - *Apr 2019*, Santiago de Chile Marathon. [Strava](https://www.strava.com/activities/2272665421/overview)
-- *Jun 2018*, Presidential Traverse
+- *Jun 2018*, Presidential Traverse [Strava](https://www.strava.com/activities/1645306066)
 
-Other interesting activities: Grand Canyon Rim to River to Rim, South Sister, Four Lakes
+Other interesting activities: Grand Canyon Rim to River to Rim, South Sister, Four Lakes, Fitz Roy / El Chalten
