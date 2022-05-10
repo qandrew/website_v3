@@ -5,7 +5,7 @@ date: '2022-05-09'
 
 ![On Top of Shasta {caption: On top of Shasta!}](https://dgtzuqphqg23d.cloudfront.net/1QUgkho7kuUV6kR5gnZRsEUWdj_MTJIrM2yx7vc92IA-2048x1536.jpg)
 
-Here is a list of my proudest adventure achievements, in no particular order:
+I've been fortunate in the years after undergrad to enjoy many sports and outdoors adventures. Here is a list of some of my most interesting trips, in no particular order:
 
 ## Cycling
 
@@ -17,10 +17,14 @@ Here is a list of my proudest adventure achievements, in no particular order:
 - *Feb 2019*, Valle Nevado, Chile. 8000ft climb. [Strava](https://www.strava.com/activities/2137462481)
 - *Jul 2018*, Six Gaps, Vermont. [Strava](https://www.strava.com/activities/1672779754)
 
+Some other interesting rides: Embalse de Yeso (Chile), Pt Reyes Lighthouse, Wachusett Mountain, Vancouver's triple crown, West Maui Loop, Palomar. Feel free to message me about road bike recs in Hawaii, San Francisco, Boston, Santiago de Chile, or Vancouver.
+
 ## Backcountry Skiing
 
 - *May 2022*, Mt. Shasta Avy Gulch C2C [Strava](https://www.strava.com/activities/7089678730)
 - *Mar 2022*, Ski Dreams, Matterhorn Peak, Eastern Sierras. [Strava](https://www.strava.com/activities/6888575332)
+
+Some other interesting tours: Shovelnose Creek, Relay Peak, Jay Peak
 
 ## Mountaineering
 
@@ -33,8 +37,13 @@ Denali has been a life dream of mine, and I would love to get there one day.
 
 \* Due to a warm evening, [no one could summit that day](https://mountrainierclimbing.blogspot.com/2021/07/dc-route-update-731.html) 😡
 
+Other mountains: Pico Austria in Bolivia, attempt on Cerro El Plomo, attempt on Siguniang.
+
 ## Misc
 
 - *Apr 2021*, Mauna Kea. [Strava](https://www.strava.com/activities/5112187456)
 - *Jul 2020*, Whitney. Highest point in contiguous United States. [Strava](https://www.strava.com/activities/3824802590)
 - *Apr 2019*, Santiago de Chile Marathon. [Strava](https://www.strava.com/activities/2272665421/overview)
+- *Jun 2018*, Presidential Traverse
+
+Other interesting activities: Grand Canyon Rim to River to Rim, South Sister, Four Lakes
