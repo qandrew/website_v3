@@ -1,11 +1,11 @@
 ---
-title: 'Highlights of my adventures'
-date: '2022-05-09'
+title: 'List of Interesting Trips'
+date: '2022-05-12'
 ---
 
 ![On Top of Shasta {caption: On top of Shasta!}](https://dgtzuqphqg23d.cloudfront.net/1QUgkho7kuUV6kR5gnZRsEUWdj_MTJIrM2yx7vc92IA-2048x1536.jpg)
 
-I've been fortunate in the years after undergrad to enjoy many sports and outdoors adventures. Here is a list of some of my most interesting trips, in no particular order:
+Here is a list of some of my most interesting trips, in no particular order:
 
 ## Cycling
 
