@@ -83,8 +83,6 @@ function BlurImage({ image }) {
                       <Image
                         alt=""
                         src={image.imageSrc}
-                        // width="80%"
-                        // height="40%"
                         layout="fill"
                         objectFit="contain"
                         className={cn(
