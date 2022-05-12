@@ -17,7 +17,7 @@ const MarkdownComponents = {
           const metastring = image.properties.alt;
           const alt = metastring === null || metastring === void 0 ? void 0 : metastring.replace(/ *\{[^)]*\} */g, "");
           const metaWidth = metastring.match(/{([^}]+)xxx/);
-          // FRAGILE: xxx cannot be alt text
+          // HACK: xxx cannot be alt text
           const metaHeight = metastring.match(/xxx([^}]+)}/);
           const width = metaWidth ? metaWidth[1] : "768";
           const height = metaHeight ? metaHeight[1] : "432";
@@ -25,7 +25,8 @@ const MarkdownComponents = {
           const hasCaption = metastring === null || metastring === void 0 ? void 0 : metastring.toLowerCase().includes('{caption:');
           const caption = (_a = metastring === null || metastring === void 0 ? void 0 : metastring.match(/{caption: (.*?)}/)) === null || _a === void 0 ? void 0 : _a.pop();
           return (
-            <div className="postImgWrapper">
+            // TODO: pt-2 adds padding to all, ideally read in from markdown...
+            <div className="postImgWrapper pt-2">
               <Image
                 src={image.properties.src}
                 width={width}

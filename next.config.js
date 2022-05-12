@@ -6,6 +6,7 @@ module.exports = {
       "scontent-sea1-1.xx.fbcdn.net",
       "pbs.twimg.com",
       "dgtzuqphqg23d.cloudfront.net",
+      "lh3.googleusercontent.com",
     ],
   },
 }
