@@ -51,8 +51,7 @@ function BlurImage({ image }) {
             onLoadingComplete={() => setLoading(false)}
           />
         </div>
-        <h3 className="mt-4 text-sm text-gray-700">{image.name}</h3>
-        <p className="mt-1 text-lg font-medium text-gray-900">{image.username}</p>
+        <h3 className="mt-4 text-sm font-medium text-gray-700">{image.name}</h3>
 
         <Transition appear show={isOpen} as={Fragment}>
           <Dialog as="div" className="relative z-10" onClose={closeModal}>
@@ -121,6 +120,7 @@ function BlurImage({ image }) {
 function Photos({ images }) {
   return (
       <div className="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+        <h1 className="pb-4 mt-4 text-lg font-medium">Selected Photos</h1>
         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           {images.map((image) => (
             <BlurImage key={image.id} image={image} />
@@ -128,7 +128,19 @@ function Photos({ images }) {
         </div>
 
         <br />
-        <div className="p-3">
+        {/* TODO: make things look nicer... */}
+        <h1 className="pb-4 mt-4 text-lg font-medium">Other Google Photos Albums</h1>
+        <div className="pb-4 text-gray-700">
+            <ul className='list-disc pl-4'>
+              <li><a href="https://photos.app.goo.gl/59zMJMe2BKfvQPUv5">Nature</a></li>
+              <li><a href="https://photos.app.goo.gl/aZMiVn7HDefWEBet5">Sports</a></li>
+              <li><a href="https://photos.app.goo.gl/rcsB1XLUCzyF99nH7">Portraits</a></li>
+              <li><a href="https://photos.app.goo.gl/S9Xq5HYb7BtwfMn79">San Francisco</a></li>
+
+            </ul>
+        </div>
+
+        <div className="pb-3">
           <Link href="/">
             <a>← Back to home</a>
           </Link>
