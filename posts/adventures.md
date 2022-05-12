@@ -21,6 +21,7 @@ Some other interesting rides: Embalse de Yeso (Chile), Pt Reyes Lighthouse, Wach
 
 ## Backcountry Skiing
 
+- *May 2022*, Mt. St. Helens Worm Flows [Strava](https://www.strava.com/activities/7128048861)
 - *May 2022*, Mt. Shasta Avy Gulch C2C [Strava](https://www.strava.com/activities/7089678730)
 - *Mar 2022*, Ski Dreams, Matterhorn Peak, Eastern Sierras. [Strava](https://www.strava.com/activities/6888575332)
 
