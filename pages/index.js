@@ -48,13 +48,13 @@ function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>Photography</h2>
         <Link href={`photos`}>Click Here</Link>
       </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+      {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <br />
         <p>
           (This website is built from following {' '}
           <a href="https://nextjs.org/learn">the Next.js tutorial</a>.)
         </p>
-      </section>
+      </section> */}
     </Layout>
   )
 }

@@ -38,12 +38,13 @@ Denali has been a life dream of mine, and I would love to get there one day.
 
 \* Due to a warm evening, [no one could summit that day](https://mountrainierclimbing.blogspot.com/2021/07/dc-route-update-731.html) 😡
 
-Other mountains: Pico Austria in Bolivia, attempt on Cerro El Plomo, attempt on Siguniang.
+Other mountains: Pico Austria in Bolivia, attempt on [Cerro El Plomo](/posts/el-plomo), attempt on Siguniang.
 
 ## Misc
 
 - *Apr 2021*, Mauna Kea. [Strava](https://www.strava.com/activities/5112187456)
 - *Jul 2020*, Whitney. Highest point in contiguous United States. [Strava](https://www.strava.com/activities/3824802590)
+- *Jul 2019*, [El Eclipse Solar](/posts/eclipse) in La Serena, Chile. [Strava](https://www.strava.com/activities/2500805413)
 - *Apr 2019*, Santiago de Chile Marathon. [Strava](https://www.strava.com/activities/2272665421/overview)
 - *Jun 2018*, Presidential Traverse [Strava](https://www.strava.com/activities/1645306066)
 
