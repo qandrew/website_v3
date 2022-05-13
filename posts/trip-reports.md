@@ -1,12 +1,12 @@
 ---
-title: 'List of Interesting Trips'
+title: 'Trip Reports'
 date: '2022-05-12'
 is_blog: false
 ---
 
 ![On Top of Shasta {caption: On top of Shasta!}](https://dgtzuqphqg23d.cloudfront.net/1QUgkho7kuUV6kR5gnZRsEUWdj_MTJIrM2yx7vc92IA-2048x1536.jpg)
 
-Here is a list of some of my most interesting trips, in no particular order:
+Here is a list of some of my most interesting activities grouped by sport. Feel free to use the Strava activities as references. Some of these trips will also have trip reports attached.
 
 ## Cycling
 
