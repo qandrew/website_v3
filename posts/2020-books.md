@@ -1,6 +1,7 @@
 ---
 title: 'Books that have influenced me the most'
 date: '2020-11-24'
+is_blog: true
 ---
 
 2020 has been a year of quarantine and shelter in place. One hobby that I've picked up significantly is that of reading. This year is by far the most I've read since high school, when books were mandatory reading assignments for our English class. With more time and less places to go physically, books have offered my mind to explore many thoughts.

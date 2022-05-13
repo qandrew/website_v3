@@ -1,6 +1,7 @@
 ---
 title: 'Close to the Fire'
 date: '2020-10-04'
+is_blog: true
 # tags: [
 #     "blog",
 # ]

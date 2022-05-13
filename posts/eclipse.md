@@ -1,6 +1,7 @@
 ---
 title: 'El Eclipse Solar'
 date: '2019-07-17'
+is_blog: true
 ---
 
 <!-- TODO: cover photo -->

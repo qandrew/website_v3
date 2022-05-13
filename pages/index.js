@@ -22,9 +22,7 @@ function Home({ allPostsData }) {
       </Head>
       {/* TODO: make about section a component, read from markdown */}
       <section className={utilStyles.headingMd}>
-        <p>Hello, I'm <b>Andrew</b>!</p>
-        <p>
-          Welcome to my website! This website is a creative outlet for me to blog about things I care about in computer science, the outdoors, and photography.
+        <p>Hello, I'm <b>Andrew</b>. This website is a creative outlet for me to blog about things I care about in <Link href={`/posts/projects`}>computer science</Link>, <Link href={`/posts/adventures`}>the outdoors</Link>, and <Link href={`photos`}>photography</Link>.
         </p>
       </section>
 
@@ -43,10 +41,6 @@ function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Photography</h2>
-        <Link href={`photos`}>Click Here</Link>
       </section>
       {/* <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <br />

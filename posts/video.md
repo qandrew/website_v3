@@ -1,6 +1,7 @@
 ---
 title: 'Video Projects'
 date: '2018-11-01'
+is_blog: true
 ---
 
 In the past, I dabbled fairly casually in video. Here are some projects I worked on, I'm not even sure if they are worth sharing:

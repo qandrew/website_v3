@@ -1,6 +1,7 @@
 ---
 title: 'Academic / Work Projects'
 date: '2020-11-01'
+is_blog: false
 ---
 
 Here are some projects I worked on from school and previous jobs. Apparently this is my [google scholar](https://scholar.google.com/citations?user=E0mN8P0AAAAJ).

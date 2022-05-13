@@ -1,6 +1,7 @@
 ---
 title: 'List of Interesting Trips'
 date: '2022-05-12'
+is_blog: false
 ---
 
 ![On Top of Shasta {caption: On top of Shasta!}](https://dgtzuqphqg23d.cloudfront.net/1QUgkho7kuUV6kR5gnZRsEUWdj_MTJIrM2yx7vc92IA-2048x1536.jpg)
