@@ -45,7 +45,7 @@ Other mountains: Pico Austria in Bolivia, attempt on [Cerro El Plomo](/posts/el-
 
 - *Apr 2021*, Mauna Kea. [Strava](https://www.strava.com/activities/5112187456)
 - *Jul 2020*, Whitney. Highest point in contiguous United States. [Strava](https://www.strava.com/activities/3824802590)
-- *Jul 2019*, [El Eclipse Solar](/posts/eclipse) in La Serena, Chile. [Strava](https://www.strava.com/activities/2500805413)
+- *Jul 2019*, El Eclipse Solar in La Serena, Chile. [Strava](https://www.strava.com/activities/2500805413), [Trip Report](/posts/eclipse)
 - *Apr 2019*, Santiago de Chile Marathon. [Strava](https://www.strava.com/activities/2272665421/overview)
 - *Jun 2018*, Presidential Traverse [Strava](https://www.strava.com/activities/1645306066)
 

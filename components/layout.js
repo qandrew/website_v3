@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
@@ -10,9 +9,16 @@ const imageLoc = '/images/me.jpg'
 export const name = 'Andrew Xia'
 export const siteTitle = name + '\'s Blog'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children, home, post }) {
+
+  // HACK: photos page should have no max width.
+  var layoutTailwind = "px-4 mx-auto mt-12 mb-12"
+  if (home || post) {
+    layoutTailwind += " max-w-4xl"
+  }
+
   return (
-    <div className={styles.container}>
+    <div className={layoutTailwind}>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -28,7 +34,7 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
+      <header className="flex flex-auto flex-col items-center">
         {home ? (
           <>
             <Image
@@ -65,7 +71,7 @@ export default function Layout({ children, home }) {
       </header>
       <main>{children}</main>
       {!home && (
-        <div className={styles.backToHome}>
+        <div className="mt-4">
           <Link href="/">
             <a>← Back to home</a>
           </Link>

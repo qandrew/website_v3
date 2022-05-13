@@ -68,7 +68,7 @@ export async function getStaticProps({ params }) {
 
 export default function Post({ postData }) {
   return (
-    <Layout>
+    <Layout post>
       <Head>
         <title>{postData.title} | {name}</title>
       </Head>
