@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 import { useState } from 'react'
 
@@ -19,7 +18,7 @@ export default function Layout({ children, home, post }) {
   if (home || post) {
     layoutTailwind += " max-w-4xl"
   } else {
-    layoutTailwind += "lg:max-w-7xl"
+    layoutTailwind += "max-w-2xl lg:max-w-7xl"
   }
 
   return (
