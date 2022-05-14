@@ -1,12 +1,12 @@
 ---
-title: 'List of Interesting Trips'
+title: 'Trip Reports'
 date: '2022-05-12'
 is_blog: false
 ---
 
 ![On Top of Shasta {caption: On top of Shasta!}](https://dgtzuqphqg23d.cloudfront.net/1QUgkho7kuUV6kR5gnZRsEUWdj_MTJIrM2yx7vc92IA-2048x1536.jpg)
 
-Here is a list of some of my most interesting trips, in no particular order:
+Here is a list of some of my most interesting activities grouped by sport. Feel free to use the Strava activities as references. Some of these trips will also have trip reports attached.
 
 ## Cycling
 
@@ -45,7 +45,7 @@ Other mountains: Pico Austria in Bolivia, attempt on [Cerro El Plomo](/posts/el-
 
 - *Apr 2021*, Mauna Kea. [Strava](https://www.strava.com/activities/5112187456)
 - *Jul 2020*, Whitney. Highest point in contiguous United States. [Strava](https://www.strava.com/activities/3824802590)
-- *Jul 2019*, [El Eclipse Solar](/posts/eclipse) in La Serena, Chile. [Strava](https://www.strava.com/activities/2500805413)
+- *Jul 2019*, El Eclipse Solar in La Serena, Chile. [Strava](https://www.strava.com/activities/2500805413), [Trip Report](/posts/eclipse)
 - *Apr 2019*, Santiago de Chile Marathon. [Strava](https://www.strava.com/activities/2272665421/overview)
 - *Jun 2018*, Presidential Traverse [Strava](https://www.strava.com/activities/1645306066)
 

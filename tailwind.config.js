@@ -5,7 +5,18 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      typography: {
+        DEFAULT: {
+          css: {
+            color: '#333',
+            a: {
+              color: 'text-lime-800',
+            },
+          },
+        },
+      },
+    },
   },
   plugins: [
     require('@tailwindcss/aspect-ratio'),

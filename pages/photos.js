@@ -4,7 +4,7 @@ import Head from 'next/head';
 import Image from "next/image";
 import imageList from "../public/images.json"
 import Link from 'next/link';
-import { name } from '../components/layout';
+import Layout, { name } from '../components/layout';
 
 export async function getStaticProps() {
   return {
@@ -32,9 +32,6 @@ function BlurImage({ image }) {
 
   return (
     <>
-      <Head>
-        <title>Photography | {name}</title>
-      </Head>
       <div className="group">
         <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8" onClick={openModal}>
           <Image
@@ -51,7 +48,7 @@ function BlurImage({ image }) {
             onLoadingComplete={() => setLoading(false)}
           />
         </div>
-        <h3 className="mt-4 text-sm font-medium text-gray-700">{image.name}</h3>
+        <h3 className="mt-4 text-sm font-medium text-lime-800">{image.name}</h3>
 
         <Transition appear show={isOpen} as={Fragment}>
           <Dialog as="div" className="relative z-10" onClose={closeModal}>
@@ -117,7 +114,11 @@ function BlurImage({ image }) {
 
 function Photos({ images }) {
   return (
-      <div className="max-w-2xl mx-auto py-16 px-4 sm:py-8 sm:px-6 lg:max-w-7xl lg:px-8">
+    <Layout>
+      <Head>
+        <title>Photography | {name}</title>
+      </Head>
+      <div className="max-w-2xl mx-auto py-16 sm:py-8 lg:max-w-7xl">
         <h1 className="pb-4 mt-4 text-lg font-medium">Selected Photos</h1>
         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           {images.map((image) => (
@@ -137,13 +138,8 @@ function Photos({ images }) {
 
             </ul>
         </div>
-
-        <div className="pb-3">
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
       </div>
+    </Layout>
   );
 }
 
