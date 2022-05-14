@@ -48,7 +48,7 @@ function BlurImage({ image }) {
             onLoadingComplete={() => setLoading(false)}
           />
         </div>
-        <h3 className="mt-4 text-sm font-medium text-gray-700">{image.name}</h3>
+        <h3 className="mt-4 text-sm font-medium text-lime-800">{image.name}</h3>
 
         <Transition appear show={isOpen} as={Fragment}>
           <Dialog as="div" className="relative z-10" onClose={closeModal}>
