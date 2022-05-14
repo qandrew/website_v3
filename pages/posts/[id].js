@@ -26,12 +26,11 @@ const MarkdownComponents = {
           const caption = (_a = metastring === null || metastring === void 0 ? void 0 : metastring.match(/{caption: (.*?)}/)) === null || _a === void 0 ? void 0 : _a.pop();
           return (
             // TODO: pt-2 adds padding to all, ideally read in from markdown...
-            <div className="postImgWrapper pt-2">
+            <div className="pt-2">
               <Image
                 src={image.properties.src}
                 width={width}
                 height={height}
-                className="postImg"
                 objectFit="contain"
                 alt={alt}
                 priority={isPriority}
