@@ -1,6 +1,6 @@
 ---
 title: 'Trip Reports'
-date: '2022-05-12'
+date: '2022-05-18'
 is_blog: false
 ---
 
@@ -22,8 +22,9 @@ Some other interesting rides: Embalse de Yeso (Chile), Pt Reyes Lighthouse, Wach
 
 ## Backcountry Skiing
 
-- *May 2022*, Mt. St. Helens Worm Flows [Strava](https://www.strava.com/activities/7128048861)
-- *May 2022*, Mt. Shasta Avy Gulch C2C [Strava](https://www.strava.com/activities/7089678730)
+- *May 2022*, Mt. Hood via Hogsback. [Strava](https://www.strava.com/activities/7154437159), [Trip Report](/posts/mt-hood)
+- *May 2022*, Mt. St. Helens via Worm Flows. [Strava](https://www.strava.com/activities/7128048861)
+- *May 2022*, Mt. Shasta via Avalanche Gulch. [Strava](https://www.strava.com/activities/7089678730)
 - *Mar 2022*, Ski Dreams, Matterhorn Peak, Eastern Sierras. [Strava](https://www.strava.com/activities/6888575332)
 
 Some other interesting tours: Shovelnose Creek, Relay Peak, Jay Peak
@@ -32,10 +33,10 @@ Some other interesting tours: Shovelnose Creek, Relay Peak, Jay Peak
 
 Denali has been a life dream of mine, and I would love to get there one day.
 
-- *Jul 2021*, Mt. Rainier *attempt*\* via DC. [Strava](https://www.strava.com/activities/5718814309)
-- *Jul 2021*, Mt. Baker via Squak. Strava [D1](https://www.strava.com/activities/5701980073) [D2](https://www.strava.com/activities/5702007416)
-- *Aug 2019*, Huayna Potosi, Bolivia. 6088m/19974ft. [Strava](https://www.strava.com/activities/2651542902)
-- *Jan 2019*, Volcan Villarica, Chile. [Strava](https://www.strava.com/activities/2094305696)
+- *Jul 2021*, Mt. Rainier *attempt*\* via Dissapointment Cleaver. [Strava](https://www.strava.com/activities/5718814309)
+- *Jul 2021*, Mt. Baker via Squak Glacier. Strava [D1](https://www.strava.com/activities/5701980073) [D2](https://www.strava.com/activities/5702007416)
+- *Aug 2019*, Huayna Potosi via normal route, Bolivia. 6088m/19974ft. [Strava](https://www.strava.com/activities/2651542902)
+- *Jan 2019*, Volcan Villarica via normal route, Chile. [Strava](https://www.strava.com/activities/2094305696)
 
 \* Due to a warm evening, [no one could summit that day](https://mountrainierclimbing.blogspot.com/2021/07/dc-route-update-731.html) 😡
 
@@ -47,6 +48,7 @@ Other mountains: Pico Austria in Bolivia, attempt on [Cerro El Plomo](/posts/el-
 - *Jul 2020*, Whitney. Highest point in contiguous United States. [Strava](https://www.strava.com/activities/3824802590)
 - *Jul 2019*, El Eclipse Solar in La Serena, Chile. [Strava](https://www.strava.com/activities/2500805413), [Trip Report](/posts/eclipse)
 - *Apr 2019*, Santiago de Chile Marathon. [Strava](https://www.strava.com/activities/2272665421/overview)
+<!-- - *Sep 2018*, Beer Mile [Strava](https://www.strava.com/activities/1831378428/) -->
 - *Jun 2018*, Presidential Traverse [Strava](https://www.strava.com/activities/1645306066)
 
 Other interesting activities: Grand Canyon Rim to River to Rim, South Sister, Four Lakes, Fitz Roy / El Chalten
