@@ -31,7 +31,11 @@ function Home({ allPostsData }) {
       {/* TODO: make about section a component, read from markdown */}
       <article className='prose max-w-none'>
         <section>
-          <p>Hello, I'm <b>Andrew</b>. This website is a creative outlet for me to blog about things I care about in <Link href={`/posts/projects`}>computer science</Link>, <Link href={`/posts/trip-reports`}>the outdoors</Link>, and <Link href={`photos`}>photography</Link>.
+          <p>
+            Hello, I'm <b>Andrew</b>. This website is a creative outlet for me to blog about things I care about in <Link href={`/posts/projects`}>computer science</Link>, <Link href={`/posts/trip-reports`}>the outdoors</Link>, and <Link href={`photos`}>photography</Link>.
+          </p>
+          <p>
+            For my socials, here's my <a href='https://www.strava.com/athletes/9473624'>strava</a>, <a href='https://github.com/qandrew'>github</a>, <a href='https://www.linkedin.com/in/andrewhxia/'>linkedin</a>, <a href='https://www.youtube.com/channel/UCBMRsvbl5-NcJ5dsIoY9ZcQ'>youtube</a>, and <a href='mailto:axia-github@mit.edu'>email</a>.
           </p>
         </section>
 
