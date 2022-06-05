@@ -31,6 +31,7 @@ const MarkdownComponents = {
                 width={width}
                 height={height}
                 objectFit="contain"
+                layout='responsive'
                 alt={alt}
                 priority={isPriority}
               />
