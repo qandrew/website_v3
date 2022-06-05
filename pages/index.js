@@ -42,11 +42,23 @@ function Home({ allPostsData }) {
         <section>
           <h2>Blog</h2>
           <ul className="m-0">
-            {allPostsData.map(({ id, date, title }) => (
+            {allPostsData.map(({ id, date, title, tags }) => (
               <li className="p-0" key={id}>
                 <Link href={`/posts/${id}`}>
                   <a>{title}</a>
                 </Link>
+                { tags ? (
+                  <>
+                    {tags.map((tag) => (
+                      <>
+                        &nbsp;&nbsp;
+                        <Link href={`/tags/${tag}`}>
+                          <small><a className="text-gray-600">{tag}</a></small>
+                        </Link>
+                      </>
+                    ))}
+                  </>
+                ) : ( <></>)}
                 &nbsp;&nbsp;
                 <small className="text-gray-600">
                   <Date dateString={date} />

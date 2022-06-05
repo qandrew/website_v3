@@ -2,6 +2,7 @@
 title: 'Cerro El Plomo'
 date: '2019-03-26'
 is_blog: true
+tags: ['mountaineering', 'travel']
 ---
 
 <!-- TODO: cover photo -->
