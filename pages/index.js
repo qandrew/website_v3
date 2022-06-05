@@ -22,7 +22,7 @@ function Home({ allPostsData }) {
       </Head>
       <div className='m-4 h-64 md:h-64 lg:h-96 flex justify-center relative'>
           <Image
-            src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.15752-9/279756162_331118572425401_1892835869837144900_n.png?_nc_cat=105&ccb=1-6&_nc_sid=ae9488&_nc_ohc=f9z6yoHWa2gAX8tZ-DM&_nc_ht=scontent-sea1-1.xx&oh=03_AVLn-r8_B93599nW__M7UPJhZimgPisJYq7M4ST5uV5fHA&oe=62A612AD"
+            src="https://lh3.googleusercontent.com/pw/AM-JKLWFJrFogZLv_Qf_OLvTsijyLVBUqK7wGLG1ZrRE8oO5WBlJfzhMCk2IS7L4v1Va0AwceR7XeZoc7jNXB7GFGbE5Yar3LpGua2M50c27AlJouyb_0V3zST5QY_JRRqjkUFJJiRsVN3ORJbxmhuZXkik3=w1430-h953-no"
             layout="fill"
             // TODO: rounded edge with objectfit contain
             objectFit='contain'
