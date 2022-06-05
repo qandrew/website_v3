@@ -5,7 +5,36 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import ReactMarkdown from 'react-markdown'
 import Image from 'next/image'
 import rehypeRaw from 'rehype-raw'
+import { Fragment, useState } from "react";
 
+function cn(...classes) {
+  return classes.filter(Boolean).join(' ');
+}
+
+function BlurImage({ image, width, height, isPriority, alt }) {
+  const [isLoading, setLoading] = useState(true);
+
+  return (
+    <>
+          <Image
+            src={image.properties.src}
+            width={width}
+            height={height}
+            alt={alt}
+            priority={isPriority}
+            layout="responsive"
+            objectFit="contain"
+            className={cn(
+              'group-hover:opacity-75 duration-700 ease-in-out',
+              isLoading
+                ? 'grayscale blur-2xl scale-110'
+                : 'grayscale-0 blur-0 scale-100'
+            )}
+            onLoadingComplete={() => setLoading(false)}
+          />
+    </>
+  );
+}
 
 const MarkdownComponents = {
   p: (paragraph) => {
@@ -26,15 +55,7 @@ const MarkdownComponents = {
           return (
             // TODO: pt-2 adds padding to all, ideally read in from markdown...
             <div className="pt-2">
-              <Image
-                src={image.properties.src}
-                width={width}
-                height={height}
-                objectFit="contain"
-                layout='responsive'
-                alt={alt}
-                priority={isPriority}
-              />
+              <BlurImage image={image} width={width} height={height} isPriority={isPriority} alt={alt} />
                 {hasCaption ? <div className="caption justify-center flex flex-row" aria-label={caption}><i>{caption}</i></div> : null}
             </div>
           )
