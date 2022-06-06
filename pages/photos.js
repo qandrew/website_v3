@@ -75,32 +75,22 @@ function BlurImage({ image }) {
                   leaveFrom="opacity-100 scale-100"
                   leaveTo="opacity-0 scale-95"
                 >
-                  <Dialog.Panel className="w-full h-5/6 transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
-                    <div className="mt-4 max-h-5/6">
-                      <Image
-                        alt=""
-                        src={image.imageSrc}
-                        layout="fill"
-                        objectFit="contain"
-                        className={cn(
-                          'group-hover:opacity-75 duration-700 ease-in-out',
-                          isLoading
-                            ? 'grayscale blur-2xl scale-110'
-                            : 'grayscale-0 blur-0 scale-100'
-                        )}
-                        onLoadingComplete={() => setLoading(false)}
-                      />
-                    </div>
-
-                    <div className="mt-4">
-                      <button
-                        type="button"
-                        className="relative inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
-                        onClick={closeModal}
-                      >
-                        Close
-                      </button>
-                    </div>
+                  {/* HACK: bg-transparent to have modal appear in image aspect ratio */}
+                  {/* relies on clicking panel to close modal, maybe there's a more elegant solution... */}
+                  <Dialog.Panel className="w-full h-full transform bg-transparent transition-all" onClick={closeModal}>
+                    <Image
+                      alt=""
+                      src={image.imageSrc}
+                      layout="fill"
+                      objectFit="contain"
+                      className={cn(
+                        'group-hover:opacity-75 duration-700 ease-in-out',
+                        isLoading
+                          ? 'grayscale blur-2xl scale-110'
+                          : 'grayscale-0 blur-0 scale-100'
+                      )}
+                      onLoadingComplete={() => setLoading(false)}
+                    />
                   </Dialog.Panel>
                 </Transition.Child>
               </div>
