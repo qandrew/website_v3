@@ -22,9 +22,7 @@ I love the views of the city. The way the mist blows in from the west, disappear
 I love the nature in California. This past winter, I did a couple of trips with friends up to Squaw, Lassen, and Carson Pass, and I remember being mesmerized by how we could drive from temperate 60 degrees San Francisco to five feet of snowpack in less than three hours. When we drove along Interstate 5 through the Cascades in Northern California and I saw Shasta for the first time, I was awestruck --awestruck!! --by the sheer horizontal and vertical visual real estate it took up, blown away by the volcano's natural awe. At the same time telling myself that one day I will be at the top of the mountain, just like the spirit of humanity, able to conquer any issue that is presented. It isn't fair to the rest of the lower 48 that *both* the lowest and highest points are in California (Death Valley and Mt. Whitney), within 90 miles of each other. 
 
 
-<center>
-  <img style="width:80%;" src="/images/fire/hawkhill.jpg" alt="Hawk Hill">
-</center>
+![Hawk Hill](/images/fire/hawkhill.jpg)
 
 <!-- I can complain that it could snow in San Francisco (hot take!!!) but otherwise it beautiful. -->
 
@@ -78,11 +76,9 @@ Get educated. Podcasts. Recently, via my roommate Grace Li, I have started liste
 
 While COVID took so much, it also gave a lot of new opportunities. E-scooters became legal in London and New York due to demand for personal, open-air transport, something that was blocked for a long time before coronavirus. San Francisco and many cities around the world are implementing car-free streets, as we shift towards a car-free future. Even carbon emissions are expected to drop this year, due to large decreases in demand in transportaiton.
 
-I am still very hopeful that we can reach a amicable outcome. 
+I am still very hopeful that we can reach an amicable outcome. 
 
-<center>
-  <img style="width:80%;" src="/images/fire/after.jpg" alt="Hawk Hill">
-</center>
+![After](/images/fire/after.jpg)
 
 A few days later, the air started to clear. One Tuesday afternoon, the PM2.5 monitor dropped from triple digits to single digits. How relieved we all felt that the air was fresh again, that I myself could bike, that the people could once again breathe safely. This year has definitely taught me that nothing can be taken for granted yet there is also so much hope for change for the better.
 
