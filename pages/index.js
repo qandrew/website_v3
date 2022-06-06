@@ -52,6 +52,7 @@ function Home({ allPostsData }) {
                     {tags.map((tag) => (
                       <>
                         &nbsp;&nbsp;
+                        {/* TODO: hover pointer */}
                         <Link href={`/tags/${tag}`}>
                           <small><a className="text-gray-600">{tag}</a></small>
                         </Link>

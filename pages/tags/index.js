@@ -1,15 +1,16 @@
 import Head from 'next/head'
 import Layout, { name } from '../../components/layout'
 
-// TODO: get all posts with tag
+// TODO: show all tags and link to them
+// TODO: maybe this should appear in navbar also
 
 export default function Tag() {
   return (
     <Layout post>
       <Head>
-        <title>Hello | {name}</title>
+        <title>Tags | {name}</title>
       </Head>
-      <p>See All Tags and Posts</p>
+      <p>Under construction...</p>
     </Layout>
   )
 }

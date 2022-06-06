@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Layout, { name } from '../../components/layout'
 import { useRouter } from 'next/router'
-import { getSortedPostsDataTag } from '../../lib/posts'
+import { getSortedTaggedPostsData } from '../../lib/posts'
 import Link from 'next/link'
 import Date from '../../components/date'
 
@@ -24,9 +24,7 @@ export async function getStaticPaths() {
 
 // TODO: get all posts with tag filtered
 export async function getStaticProps( { params }) {
-  console.log(params);
-  const allPostsData = getSortedPostsDataTag(params.id)
-  console.log(allPostsData);
+  const allPostsData = getSortedTaggedPostsData(params.id)
   return {
     props: {
       allPostsData
@@ -36,12 +34,12 @@ export async function getStaticProps( { params }) {
 
 export default function Tag( {allPostsData} ) {
   const router = useRouter()
-  const { tag } = router.query
+  const { id } = router.query
   
   return (
     <Layout post>
       <Head>
-        <title>{tag} | {name}</title>
+        <title>{id} | {name}</title>
       </Head>
 
       {/* TODO: add custom description of each tag via md file */}
@@ -49,7 +47,7 @@ export default function Tag( {allPostsData} ) {
         <section>
             { (allPostsData && allPostsData.length) ? (
               <>
-                <h2>Lists of posts with tag <i>{tag}</i></h2>
+                <h2>Lists of posts with tag <i>{id}</i></h2>
                 <ul className="m-0">
                   {allPostsData.map(({ id, date, title }) => (
                     <li className="p-0" key={id}>
@@ -66,7 +64,7 @@ export default function Tag( {allPostsData} ) {
               </>
             ) : (
               <>
-                <h2> No posts under tag {tag}</h2>
+                <h2> No posts under tag {id}</h2>
               </>
             )}
           </section>
