@@ -22,7 +22,6 @@ export async function getStaticPaths() {
   }
 }
 
-// TODO: get all posts with tag filtered
 export async function getStaticProps( { params }) {
   const allPostsData = getSortedTaggedPostsData(params.id)
   return {
