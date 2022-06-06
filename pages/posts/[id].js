@@ -5,6 +5,7 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import ReactMarkdown from 'react-markdown'
 import Image from 'next/image'
 import rehypeRaw from 'rehype-raw'
+import Link from 'next/link'
 
 
 const MarkdownComponents = {
@@ -75,6 +76,21 @@ export default function Post({ postData }) {
         <div className='text-gray-600'>
           Last Updated: <Date dateString={postData.date} />
         </div>
+        { postData.tags ? (
+          <>
+            <small>
+              Tags: &nbsp;
+              {postData.tags.map((tag) => (
+                <>
+                  <Link href={`/tags/${tag}`}>
+                    <a className="text-gray-600">{tag}</a>
+                  </Link>
+                  &nbsp;&nbsp;
+                </>
+              ))}
+            </small>
+          </>
+        ) : ( <></>)}
         <ReactMarkdown
           // className={markdownStyles["markdown"]}
           rehypePlugins={[rehypeRaw]}

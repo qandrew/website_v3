@@ -2,6 +2,7 @@
 title: 'Cerro El Plomo'
 date: '2019-03-26'
 is_blog: true
+tags: ['mountaineering', 'travel']
 ---
 
 <!-- TODO: cover photo -->
@@ -43,7 +44,7 @@ I arrived at the campsite at around 730am as the first rays of the next day bega
 
 <!-- <iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/2238424688/embed/b17eeb4e5cfd7facf95fc498a801b4c4e4d84d85'></iframe> -->
 
-<center><iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/2238424154/embed/a0c69bdbae241a4c0d5bc57e1e82884f20076659'></iframe></center>
+<center><iframe height='405' width='590' frameborder='0' allowTransparency='true' scrolling='no' src='https://www.strava.com/activities/2238424154/embed/a0c69bdbae241a4c0d5bc57e1e82884f20076659'></iframe></center>
 
 <!-- <iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/2238424435/embed/da2a2d2e93e68f5b156a0392697bd8ee3d140327'></iframe> -->
 
