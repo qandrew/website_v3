@@ -50,6 +50,7 @@ const MarkdownComponents = {
 
 export async function getStaticPaths() {
   const paths = getAllPostIds()
+  console.log(paths)
   return {
     paths,
     fallback: false
@@ -78,14 +79,17 @@ export default function Post({ postData }) {
         </div>
         { postData.tags ? (
           <>
-            {postData.tags.map((tag) => (
-              <>
-                <Link href={`/tags/${tag}`}>
-                  <small><a className="text-gray-600">{tag}</a></small>
-                </Link>
-                &nbsp;&nbsp;
-              </>
-            ))}
+            <small>
+              Tags: &nbsp;
+              {postData.tags.map((tag) => (
+                <>
+                  <Link href={`/tags/${tag}`}>
+                    <a className="text-gray-600">{tag}</a>
+                  </Link>
+                  &nbsp;&nbsp;
+                </>
+              ))}
+            </small>
           </>
         ) : ( <></>)}
         <ReactMarkdown
