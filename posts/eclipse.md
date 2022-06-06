@@ -2,6 +2,7 @@
 title: 'El Eclipse Solar'
 date: '2019-07-17'
 is_blog: true
+tags: ['travel']
 ---
 
 <!-- TODO: cover photo -->
@@ -37,7 +38,7 @@ There was so much to see, too many things to see at once that you had to pick yo
 
 Immediately after the eclipse, I immediately craved for the next eclipse, almost like a drug. This was such a high, such a naturally created unnatural high, that I just wanted more.
 
-<center><iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/2500805413/embed/f48f770d451fe2bafbaaf3542e3718f19200e026'></iframe></center>
+<center><iframe height='405' width='590' frameborder='0' allowTransparency='true' scrolling='no' src='https://www.strava.com/activities/2500805413/embed/f48f770d451fe2bafbaaf3542e3718f19200e026'></iframe></center>
 
 And thus we began our hike back down to reality. After cleaning up our shoes and resting for a bit, we hit the road, only to be met by gridlock traffic on Ruta 41. We found an asado roadside, locals who were quite nice, bought food from them, and also camped in their farm from 9pm to 1am, hoping to avoid the traffic. We set up tent and called it an earlier night.
 
