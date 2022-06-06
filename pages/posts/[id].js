@@ -17,6 +17,7 @@ function BlurImage({ image, width, height, isPriority, alt }) {
 
   return (
     <>
+        <div className={ isLoading ? "bg-gray-200 rounded-lg" : '' }>
           <Image
             src={image.properties.src}
             width={width}
@@ -33,6 +34,7 @@ function BlurImage({ image, width, height, isPriority, alt }) {
             )}
             onLoadingComplete={() => setLoading(false)}
           />
+        </div>
     </>
   );
 }

@@ -26,6 +26,7 @@ function Home({ allPostsData }) {
             layout="fill"
             // TODO: rounded edge with objectfit contain
             objectFit='contain'
+            priority={true}
           />
       </div>
       {/* TODO: make about section a component, read from markdown */}
