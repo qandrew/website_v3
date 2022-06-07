@@ -29,6 +29,12 @@ function BlurImage({ image }) {
     setIsOpen(true);
   }
 
+  function wait() {
+    setTimeout(() => {
+      console.log('Hello, World!');
+    }, 1000);
+  }
+
   const keyHandler = (event) => {
     if (event.key === 'Enter') {
       openModal();
@@ -63,11 +69,16 @@ function BlurImage({ image }) {
       <h3 className="mt-4 text-sm font-medium text-lime-800">{image.name}</h3>
 
       <Transition appear show={isOpen} as={Fragment}>
-        {/* eslint-disable-next-line react/jsx-no-bind */}
-        <Dialog as="div" className="relative z-10" onClose={closeModal}>
+        <Dialog
+          as="div"
+          className="relative z-10"
+          // eslint-disable-next-line react/jsx-no-bind
+          onClose={closeModal}
+        >
           <Transition.Child
             as={Fragment}
-            enter="ease-out duration-300"
+            beforeEnter={wait}
+            enter="ease-out duration-900"
             enterFrom="opacity-0"
             enterTo="opacity-100"
             leave="ease-in duration-200"
@@ -96,6 +107,15 @@ function BlurImage({ image }) {
                   // eslint-disable-next-line react/jsx-no-bind
                   onClick={closeModal}
                 >
+                  <div className="absolute top-1 right-1">
+                    <button
+                      type="button"
+                      className="inline-flex justify-center px-2 py-1 text-sm font-medium text-gray-200 bg-gray-900 border border-transparent rounded hover:bg-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
+                      onClick={closeModal}
+                    >
+                      X
+                    </button>
+                  </div>
                   <Image
                     alt=""
                     src={image.imageSrc}
