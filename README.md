@@ -11,3 +11,4 @@ To run in dev mode, run `npm run dev`.
 
 To package for production usage, run `npm build; npm start`.
 
+To lint, run `npm run lint` and to fix issues, run `npm run lint-fix`.

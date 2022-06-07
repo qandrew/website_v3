@@ -6,19 +6,20 @@ import { getSortedTaggedPostsData } from '../../lib/posts';
 import Date from '../../components/date';
 
 export async function getStaticPaths() {
-  // TODO: should tags be limited?
+  // TODO: should tags be not limited?
   const paths = [
     { params: { id: 'mountaineering' } },
     { params: { id: 'skiing' } },
-    // { params: { id: 'blog' } },
+    { params: { id: 'blog' } },
     { params: { id: 'travel' } },
   ];
 
   return {
     paths,
-    // fallback: true allows for all tags to be shown
+    // fallback: true allows for non 404 page
     // even if they are not in the paths list
-    fallback: true,
+    // however params will not be loaded properly
+    fallback: false,
   };
 }
 
@@ -54,12 +55,14 @@ export default function Tag({ allPostsData }) {
             <>
               <h2>
                 Lists of posts with tag
+                {' '}
                 <i>{id}</i>
               </h2>
               <ul className="m-0">
-                {allPostsData.map(({ postId, date, title }) => (
-                  <li className="p-0" key={postId}>
-                    <Link href={`/posts/${postId}`}>
+                {/* eslint-disable-next-line no-shadow */}
+                {allPostsData.map(({ id, date, title }) => (
+                  <li className="p-0" key={id}>
+                    <Link href={`/posts/${id}`}>
                       <a>{title}</a>
                     </Link>
                       &nbsp;&nbsp;
