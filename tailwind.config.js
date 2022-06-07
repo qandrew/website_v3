@@ -1,3 +1,4 @@
+/* eslint-disable */
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
@@ -22,4 +23,4 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/typography'),
   ],
-}
+};
