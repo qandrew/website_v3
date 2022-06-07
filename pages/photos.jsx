@@ -29,12 +29,22 @@ function BlurImage({ image }) {
     setIsOpen(true);
   }
 
+  const keyHandler = (event) => {
+    if (event.key === 'Enter') {
+      openModal();
+    }
+  };
+
   return (
     <div className="group">
       <div
+        role="button"
+        tabIndex={0}
         className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+        // eslint-disable-next-line react/jsx-no-bind
         onClick={openModal}
-        // onKeyDown={closeModal}
+        // eslint-disable-next-line react/jsx-no-bind
+        onKeyPress={keyHandler}
       >
         <Image
           alt=""
@@ -53,6 +63,7 @@ function BlurImage({ image }) {
       <h3 className="mt-4 text-sm font-medium text-lime-800">{image.name}</h3>
 
       <Transition appear show={isOpen} as={Fragment}>
+        {/* eslint-disable-next-line react/jsx-no-bind */}
         <Dialog as="div" className="relative z-10" onClose={closeModal}>
           <Transition.Child
             as={Fragment}
@@ -82,6 +93,7 @@ function BlurImage({ image }) {
                 maybe there's a more elegant solution... */}
                 <Dialog.Panel
                   className="w-full h-full transform bg-transparent transition-all"
+                  // eslint-disable-next-line react/jsx-no-bind
                   onClick={closeModal}
                 >
                   <Image

@@ -54,6 +54,7 @@ const MarkdownComponents = {
       const height = metaHeight ? metaHeight[1] : '432';
       const isPriority = metastring === null || metastring === undefined ? undefined : metastring.toLowerCase().match('{priority}');
       const hasCaption = metastring === null || metastring === undefined ? undefined : metastring.toLowerCase().includes('{caption:');
+      // eslint-disable-next-line no-cond-assign
       const caption = (aTemp = metastring === null || metastring === undefined ? undefined : metastring.match(/{caption: (.*?)}/)) === null || aTemp === undefined ? undefined : aTemp.pop();
       return (
       // TODO: pt-2 adds padding to all, ideally read in from markdown...

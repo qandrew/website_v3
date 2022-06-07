@@ -1,3 +1,4 @@
+/* eslint-disable */
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
