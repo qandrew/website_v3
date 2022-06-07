@@ -1,16 +1,16 @@
-import { Dialog, Transition } from '@headlessui/react'
-import { Fragment, useState } from "react";
+import { Dialog, Transition } from '@headlessui/react';
+import { Fragment, useState } from 'react';
 import Head from 'next/head';
-import Image from "next/image";
-import imageList from "../public/images.json"
+import Image from 'next/image';
 import Link from 'next/link';
+import imageList from '../public/images.json';
 import Layout, { name } from '../components/layout';
 
 export async function getStaticProps() {
   return {
     props: {
-      images: imageList.images
-    }
+      images: imageList.images,
+    },
   };
 }
 
@@ -20,85 +20,83 @@ function cn(...classes) {
 
 function BlurImage({ image }) {
   const [isLoading, setLoading] = useState(true);
-  let [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   function closeModal() {
-    setIsOpen(false)
+    setIsOpen(false);
   }
 
   function openModal() {
-    setIsOpen(true)
+    setIsOpen(true);
   }
 
   return (
-    <>
-      <div className="group">
-        <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8" onClick={openModal}>
-          <Image
-            alt=""
-            src={image.imageSrc}
-            layout="fill"
-            objectFit="cover"
-            className={cn(
-              'group-hover:opacity-75 duration-700 ease-in-out',
-              isLoading
-                ? 'grayscale blur-2xl scale-110'
-                : 'grayscale-0 blur-0 scale-100'
-            )}
-            onLoadingComplete={() => setLoading(false)}
-          />
-        </div>
-        <h3 className="mt-4 text-sm font-medium text-lime-800">{image.name}</h3>
-
-        <Transition appear show={isOpen} as={Fragment}>
-          <Dialog as="div" className="relative z-10" onClose={closeModal}>
-            <Transition.Child
-              as={Fragment}
-              enter="ease-out duration-300"
-              enterFrom="opacity-0"
-              enterTo="opacity-100"
-              leave="ease-in duration-200"
-              leaveFrom="opacity-100"
-              leaveTo="opacity-0"
-            >
-              <div className="fixed inset-0 bg-black bg-opacity-25" />
-            </Transition.Child>
-
-            <div className="fixed inset-0 overflow-y-auto">
-              <div className="flex h-screen items-center justify-center p-4 text-center">
-                <Transition.Child
-                  as={Fragment}
-                  enter="ease-out duration-300"
-                  enterFrom="opacity-0 scale-95"
-                  enterTo="opacity-100 scale-100"
-                  leave="ease-in duration-200"
-                  leaveFrom="opacity-100 scale-100"
-                  leaveTo="opacity-0 scale-95"
-                >
-                  {/* HACK: bg-transparent to have modal appear in image aspect ratio */}
-                  {/* relies on clicking panel to close modal, maybe there's a more elegant solution... */}
-                  <Dialog.Panel className="w-full h-full transform bg-transparent transition-all" onClick={closeModal}>
-                    <Image
-                      alt=""
-                      src={image.imageSrc}
-                      layout="fill"
-                      objectFit="contain"
-                      className={cn(
-                        'group-hover:opacity-75 duration-700 ease-in-out',
-                        isLoading
-                          ? 'grayscale blur-2xl scale-110'
-                          : 'grayscale-0 blur-0 scale-100'
-                      )}
-                      onLoadingComplete={() => setLoading(false)}
-                    />
-                  </Dialog.Panel>
-                </Transition.Child>
-              </div>
-            </div>
-          </Dialog>
-        </Transition>
+    <div className="group">
+      <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8" onClick={openModal}>
+        <Image
+          alt=""
+          src={image.imageSrc}
+          layout="fill"
+          objectFit="cover"
+          className={cn(
+            'group-hover:opacity-75 duration-700 ease-in-out',
+            isLoading
+              ? 'grayscale blur-2xl scale-110'
+              : 'grayscale-0 blur-0 scale-100',
+          )}
+          onLoadingComplete={() => setLoading(false)}
+        />
       </div>
-    </>
+      <h3 className="mt-4 text-sm font-medium text-lime-800">{image.name}</h3>
+
+      <Transition appear show={isOpen} as={Fragment}>
+        <Dialog as="div" className="relative z-10" onClose={closeModal}>
+          <Transition.Child
+            as={Fragment}
+            enter="ease-out duration-300"
+            enterFrom="opacity-0"
+            enterTo="opacity-100"
+            leave="ease-in duration-200"
+            leaveFrom="opacity-100"
+            leaveTo="opacity-0"
+          >
+            <div className="fixed inset-0 bg-black bg-opacity-25" />
+          </Transition.Child>
+
+          <div className="fixed inset-0 overflow-y-auto">
+            <div className="flex h-screen items-center justify-center p-4 text-center">
+              <Transition.Child
+                as={Fragment}
+                enter="ease-out duration-300"
+                enterFrom="opacity-0 scale-95"
+                enterTo="opacity-100 scale-100"
+                leave="ease-in duration-200"
+                leaveFrom="opacity-100 scale-100"
+                leaveTo="opacity-0 scale-95"
+              >
+                {/* HACK: bg-transparent to have modal appear in image aspect ratio */}
+                {/* relies on clicking panel to close modal, maybe there's a more elegant solution... */}
+                <Dialog.Panel className="w-full h-full transform bg-transparent transition-all" onClick={closeModal}>
+                  <Image
+                    alt=""
+                    src={image.imageSrc}
+                    layout="fill"
+                    objectFit="contain"
+                    className={cn(
+                      'group-hover:opacity-75 duration-700 ease-in-out',
+                      isLoading
+                        ? 'grayscale blur-2xl scale-110'
+                        : 'grayscale-0 blur-0 scale-100',
+                    )}
+                    onLoadingComplete={() => setLoading(false)}
+                  />
+                </Dialog.Panel>
+              </Transition.Child>
+            </div>
+          </div>
+        </Dialog>
+      </Transition>
+    </div>
   );
 }
 
@@ -106,7 +104,10 @@ function Photos({ images }) {
   return (
     <Layout>
       <Head>
-        <title>Photography | {name}</title>
+        <title>
+          Photography |
+          {name}
+        </title>
       </Head>
       <div className="max-w-2xl mx-auto py-16 sm:py-8 lg:max-w-7xl">
         <h1 className="pb-4 mt-4 text-lg font-medium">Selected Photos</h1>
@@ -120,13 +121,13 @@ function Photos({ images }) {
         {/* TODO: make things look nicer... */}
         <h1 className="pb-4 mt-4 text-lg font-medium">Other Google Photos Albums</h1>
         <div className="pb-4 text-gray-700">
-            <ul className='list-disc pl-4'>
-              <li><a href="https://photos.app.goo.gl/59zMJMe2BKfvQPUv5">Nature</a></li>
-              <li><a href="https://photos.app.goo.gl/aZMiVn7HDefWEBet5">Sports</a></li>
-              <li><a href="https://photos.app.goo.gl/rcsB1XLUCzyF99nH7">Portraits</a></li>
-              <li><a href="https://photos.app.goo.gl/S9Xq5HYb7BtwfMn79">San Francisco</a></li>
+          <ul className="list-disc pl-4">
+            <li><a href="https://photos.app.goo.gl/59zMJMe2BKfvQPUv5">Nature</a></li>
+            <li><a href="https://photos.app.goo.gl/aZMiVn7HDefWEBet5">Sports</a></li>
+            <li><a href="https://photos.app.goo.gl/rcsB1XLUCzyF99nH7">Portraits</a></li>
+            <li><a href="https://photos.app.goo.gl/S9Xq5HYb7BtwfMn79">San Francisco</a></li>
 
-            </ul>
+          </ul>
         </div>
       </div>
     </Layout>
