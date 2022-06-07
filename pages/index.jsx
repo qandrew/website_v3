@@ -33,7 +33,7 @@ function Home({ allPostsData }) {
       <article className="prose max-w-none">
         <section>
           <p>
-            Hello, I`&apos;`m
+            Hello, I&apos;m
             {' '}
             <b>Andrew</b>
             . This website is a creative outlet for me to blog about things I care about in
@@ -48,7 +48,7 @@ function Home({ allPostsData }) {
             .
           </p>
           <p>
-            For my socials, here`&apos;`s my
+            For my socials, here&apos;s my
             {' '}
             <a href="https://www.strava.com/athletes/9473624">strava</a>
             ,
@@ -77,6 +77,7 @@ function Home({ allPostsData }) {
                 <Link href={`/posts/${id}`}>
                   <a>{title}</a>
                 </Link>
+                {' '}
                 { tags && (
                 <>
                   {tags.map((tag) => (
