@@ -59,9 +59,10 @@ export default function Tag({ allPostsData }) {
                 <i>{id}</i>
               </h2>
               <ul className="m-0">
-                {allPostsData.map(({ postId, date, title }) => (
-                  <li className="p-0" key={postId}>
-                    <Link href={`/posts/${postId}`}>
+                {/* eslint-disable-next-line no-shadow */}
+                {allPostsData.map(({ id, date, title }) => (
+                  <li className="p-0" key={id}>
+                    <Link href={`/posts/${id}`}>
                       <a>{title}</a>
                     </Link>
                       &nbsp;&nbsp;
