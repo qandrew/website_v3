@@ -41,25 +41,31 @@ function BlurImage({
 
 const MarkdownComponents = {
   p: (paragraph) => {
-    let _a;
+    let aTemp;
     const { node } = paragraph;
     if (node.children[0].tagName === 'img') {
       const image = node.children[0];
       const metastring = image.properties.alt;
-      const alt = metastring === null || metastring === void 0 ? void 0 : metastring.replace(/ *\{[^)]*\} */g, '');
+      const alt = metastring === null || metastring === undefined ? undefined : metastring.replace(/ *\{[^)]*\} */g, '');
       const metaWidth = metastring.match(/{([^}]+)xxx/);
       // HACK: xxx cannot be alt text
       const metaHeight = metastring.match(/xxx([^}]+)}/);
       const width = metaWidth ? metaWidth[1] : '768';
       const height = metaHeight ? metaHeight[1] : '432';
-      const isPriority = metastring === null || metastring === void 0 ? void 0 : metastring.toLowerCase().match('{priority}');
-      const hasCaption = metastring === null || metastring === void 0 ? void 0 : metastring.toLowerCase().includes('{caption:');
-      const caption = (_a = metastring === null || metastring === void 0 ? void 0 : metastring.match(/{caption: (.*?)}/)) === null || _a === void 0 ? void 0 : _a.pop();
+      const isPriority = metastring === null || metastring === undefined ? undefined : metastring.toLowerCase().match('{priority}');
+      const hasCaption = metastring === null || metastring === undefined ? undefined : metastring.toLowerCase().includes('{caption:');
+      const caption = (aTemp = metastring === null || metastring === undefined ? undefined : metastring.match(/{caption: (.*?)}/)) === null || aTemp === undefined ? undefined : aTemp.pop();
       return (
       // TODO: pt-2 adds padding to all, ideally read in from markdown...
         <div className="pt-2">
-          <BlurImage image={image} width={width} height={height} isPriority={isPriority} alt={alt} />
-          {hasCaption ? <div className="caption justify-center flex flex-row" aria-label={caption}><i>{caption}</i></div> : null}
+          <BlurImage
+            image={image}
+            width={width}
+            height={height}
+            isPriority={isPriority}
+            alt={alt}
+          />
+          {hasCaption && <div className="caption justify-center flex flex-row" aria-label={caption}><i>{caption}</i></div>}
         </div>
       );
     }
@@ -111,7 +117,7 @@ export default function Post({ postData }) {
           {' '}
           <Date dateString={postData.date} />
         </div>
-        { postData.tags ? (
+        { postData.tags && (
           <small>
             Tags: &nbsp;
             {postData.tags.map((tag) => (
@@ -123,10 +129,11 @@ export default function Post({ postData }) {
               </>
             ))}
           </small>
-        ) : (<></>)}
+        )}
         <ReactMarkdown
           // className={markdownStyles["markdown"]}
           rehypePlugins={[rehypeRaw]}
+          // eslint-disable-next-line react/no-children-prop
           children={postData.contentMarkdown}
           components={MarkdownComponents}
         />

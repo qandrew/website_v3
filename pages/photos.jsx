@@ -2,7 +2,6 @@ import { Dialog, Transition } from '@headlessui/react';
 import { Fragment, useState } from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import Link from 'next/link';
 import imageList from '../public/images.json';
 import Layout, { name } from '../components/layout';
 
@@ -32,7 +31,11 @@ function BlurImage({ image }) {
 
   return (
     <div className="group">
-      <div className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8" onClick={openModal}>
+      <div
+        className="w-full aspect-w-1 aspect-h-1 bg-gray-200 rounded-lg overflow-hidden xl:aspect-w-7 xl:aspect-h-8"
+        onClick={openModal}
+        // onKeyDown={closeModal}
+      >
         <Image
           alt=""
           src={image.imageSrc}
@@ -74,9 +77,13 @@ function BlurImage({ image }) {
                 leaveFrom="opacity-100 scale-100"
                 leaveTo="opacity-0 scale-95"
               >
-                {/* HACK: bg-transparent to have modal appear in image aspect ratio */}
-                {/* relies on clicking panel to close modal, maybe there's a more elegant solution... */}
-                <Dialog.Panel className="w-full h-full transform bg-transparent transition-all" onClick={closeModal}>
+                {/* HACK: bg-transparent to have modal appear in image aspect ratio
+                relies on clicking panel to close modal,
+                maybe there's a more elegant solution... */}
+                <Dialog.Panel
+                  className="w-full h-full transform bg-transparent transition-all"
+                  onClick={closeModal}
+                >
                   <Image
                     alt=""
                     src={image.imageSrc}

@@ -33,7 +33,7 @@ function Home({ allPostsData }) {
       <article className="prose max-w-none">
         <section>
           <p>
-            Hello, I'm
+            Hello, I`&apos;`m
             {' '}
             <b>Andrew</b>
             . This website is a creative outlet for me to blog about things I care about in
@@ -48,7 +48,7 @@ function Home({ allPostsData }) {
             .
           </p>
           <p>
-            For my socials, here's my
+            For my socials, here`&apos;`s my
             {' '}
             <a href="https://www.strava.com/athletes/9473624">strava</a>
             ,
@@ -77,19 +77,19 @@ function Home({ allPostsData }) {
                 <Link href={`/posts/${id}`}>
                   <a>{title}</a>
                 </Link>
-                { tags ? (
-                  <>
-                    {tags.map((tag) => (
-                      <>
+                { tags && (
+                <>
+                  {tags.map((tag) => (
+                    <>
                         &nbsp;&nbsp;
-                        {/* TODO: hover pointer */}
-                        <Link href={`/tags/${tag}`}>
-                          <small><a className="text-gray-600">{tag}</a></small>
-                        </Link>
-                      </>
-                    ))}
-                  </>
-                ) : (<></>)}
+                      {/* TODO: hover pointer */}
+                      <Link href={`/tags/${tag}`}>
+                        <small><a className="text-gray-600">{tag}</a></small>
+                      </Link>
+                    </>
+                  ))}
+                </>
+                )}
                 &nbsp;&nbsp;
                 <small className="text-gray-600">
                   <Date dateString={date} />
