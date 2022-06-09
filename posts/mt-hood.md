@@ -2,7 +2,7 @@
 title: 'Mt Hood via Hogsback'
 date: '2022-05-16'
 is_blog: true
-tags: ['mountaineering', 'skiing']
+tags: ['trip-reports', 'skiing']
 ---
 
 tl;dr: We ascended and skied Mt. Hood (Wy'East) via the south side normal route up the Pearly Gates and down the Old Chute.

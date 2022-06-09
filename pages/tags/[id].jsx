@@ -6,12 +6,13 @@ import { getSortedTaggedPostsData } from '../../lib/posts';
 import Date from '../../components/date';
 
 export async function getStaticPaths() {
-  // TODO: should tags be not limited?
+  // TODO: should tags be not limited? move elsewhere
   const paths = [
-    { params: { id: 'mountaineering' } },
+    { params: { id: 'trip-reports' } },
     { params: { id: 'skiing' } },
     { params: { id: 'blog' } },
     { params: { id: 'travel' } },
+    { params: { id: 'cycling' } },
   ];
 
   return {
