@@ -11,7 +11,7 @@ Here is a list of some of my most interesting activities grouped by sport. Feel 
 
 ## Cycling
 
-- *Jan 2022*, The Coast Ride: 380 miles over 3 days from San Francisco to Santa Barbara. Strava [D1](https://www.strava.com/activities/6530083722) [D2](https://www.strava.com/activities/6535905314) [D3](https://www.strava.com/activities/6540755937)
+- *Jan 2022*, The Coast Ride: 380 miles over 3 days from San Francisco to Santa Barbara. Strava [D1](https://www.strava.com/activities/6530083722) [D2](https://www.strava.com/activities/6535905314) [D3](https://www.strava.com/activities/6540755937), [Trip Report](/posts/coast-ride).
 - *Oct 2021*, Hurricane Ridge: 5200ft climb in Olympic National Park. [Strava](https://www.strava.com/activities/6062839766)
 - *Jun 2021*, Yosemite Tioga Pass. [Strava](https://www.strava.com/activities/5420609790)
 - *May 2021*, Haleakala. 10000ft climb. [Strava](https://www.strava.com/activities/5265697501)
@@ -47,7 +47,7 @@ Other mountains: Pico Austria in Bolivia, attempt on [Cerro El Plomo](/posts/el-
 
 - *Apr 2021*, Mauna Kea. [Strava](https://www.strava.com/activities/5112187456)
 - *Jul 2020*, Whitney. Highest point in contiguous United States. [Strava](https://www.strava.com/activities/3824802590)
-- *Jul 2019*, El Eclipse Solar in La Serena, Chile. [Strava](https://www.strava.com/activities/2500805413), [Trip Report](/posts/eclipse)
+- *Jul 2019*, El Eclipse Solar in La Serena, Chile. [Strava](https://www.strava.com/activities/2500805413), [Blog post](/posts/eclipse)
 - *Apr 2019*, Santiago de Chile Marathon. [Strava](https://www.strava.com/activities/2272665421/overview)
 <!-- - *Sep 2018*, Beer Mile [Strava](https://www.strava.com/activities/1831378428/) -->
 - *Jun 2018*, Presidential Traverse [Strava](https://www.strava.com/activities/1645306066)
