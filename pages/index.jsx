@@ -48,7 +48,9 @@ function Home({ allPostsData }) {
             .
           </p>
           <p>
-            For my socials, here&apos;s my
+            I might put together a page about myself later,
+            as this website is still a work in progress.
+            In the mean time you can check out my other profiles:
             {' '}
             <a href="https://www.strava.com/athletes/9473624">strava</a>
             ,
@@ -57,6 +59,9 @@ function Home({ allPostsData }) {
             ,
             {' '}
             <a href="https://www.linkedin.com/in/andrewhxia/">linkedin</a>
+            ,
+            {' '}
+            <a href="https://www.facebook.com/qandr3w">facebook</a>
             ,
             {' '}
             <a href="https://www.youtube.com/channel/UCBMRsvbl5-NcJ5dsIoY9ZcQ">youtube</a>

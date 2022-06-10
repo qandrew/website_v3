@@ -134,7 +134,6 @@ function Photos({ images }) {
         </title>
       </Head>
       <div className="max-w-2xl mx-auto py-16 sm:py-8 lg:max-w-7xl">
-        <h1 className="pb-4 mt-4 text-lg font-medium">Some Pictures I took:</h1>
         <div className="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
           {images.map((image) => (
             <BlurImage key={image.id} image={image} />
@@ -143,7 +142,8 @@ function Photos({ images }) {
 
         <br />
         {/* TODO: make things look nicer... */}
-        <h1 className="pb-4 mt-4 text-lg font-medium">Other Google Photos Albums</h1>
+        <h1 className="pb-2 mt-4 text-lg font-medium">Other Google Photos Albums:</h1>
+        <p className="pb-2 font-tiny">(this page is still a work in progress...)</p>
         <div className="pb-4 text-gray-700">
           <ul className="list-disc pl-4">
             <li><a href="https://photos.app.goo.gl/59zMJMe2BKfvQPUv5">Nature</a></li>
