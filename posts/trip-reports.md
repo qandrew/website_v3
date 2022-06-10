@@ -7,7 +7,7 @@ tags: ['trip-reports', 'skiing']
 
 ![On Top of Shasta {caption: On top of Shasta!}](https://lh3.googleusercontent.com/ZP5kbs7vkubyZEYaBKSSHDOug01rsVJwHJ8fLjYywrk7hINl0SYcldNOyKNcByns01xw5zdqcmKjzVk_isGDaWTGdP_blAkoZ0hKqxtaIo6Yk64SDpnGwF57CKg1OTOw7zRZ6WXWOIpTJjc9Rlj0VZXi2B5K7F6_BpjQVAYpAlKh4chCryN8Cb_ALAWw4XNxTfzIQarS3kp7v5vym0ExuLHZqgtoZ1yfieeVS10t3TsZn3U5rJidudUjniMcD56g1CYk3eNyhkn5jvxXwNWlrZMt1Q9sE4P8_Jw5iiqLtBvgil-P17Zq2k7r7ge8CSvsVz6AmZnSYwP-Ef5VC_BtFLE8Kjgqnuh0mhmKJ_xKEoJ8_q1XAWPvrgaAdKA9gFfZXPkGOfGc-4j5UvWwOEHuP9_EhAWCm_oZbL5lupZeFUWvh0DrfOxwmabUcqOaCZd1aWc9ifd5BekvaljINGeftd4isVGuW_gaC37eU7vSGaTCD3jLdNoGTZgKJoGasZTeNkVlXwKxJvpZWqH1R1JUo5A-mgtFCEtCZLC0FFTn5s83ZTf9vouTYQFMYxfpGwc53LHCz2mITWzLcZhgZQIKcA3ovn5NfrOzaarCwCE4kEgQ4ZIPAtEHFMd59L8icWsuaJk5-1bZWsO2tGFanY-6KCsE_hSCexJ_pwpgP0OBOhdt09L0IZWtidHdw8Lwpd1LNmTke-t9PwGsJ_A_pWE40ab0aezqmxSpYmb5HndzVHgB409XSITJ8V92Njscza9X7CShJ_ITSw0lILG6ULqTWAsHUs3wvnbTfRAK=w1226-h919-no)
 
-Here is a list of some of my most interesting activities grouped by sport. Feel free to use the Strava activities as references. Some of these trips will also have trip reports attached.
+Here is a list of some of my most interesting activities grouped by sport. Feel free to use the Strava activities as references, and you're welcome to message me if I can provide any further information. Some of these trips will also have trip reports attached.
 
 ## Cycling
 
@@ -43,7 +43,7 @@ Denali has been a life dream of mine, and I would love to get there one day.
 
 Other mountains: Pico Austria in Bolivia, attempt on [Cerro El Plomo](/posts/el-plomo), attempt on Siguniang.
 
-## Misc
+## Other
 
 - *Apr 2021*, Mauna Kea. [Strava](https://www.strava.com/activities/5112187456)
 - *Jul 2020*, Whitney. Highest point in contiguous United States. [Strava](https://www.strava.com/activities/3824802590)
