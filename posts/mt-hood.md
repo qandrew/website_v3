@@ -9,7 +9,9 @@ tl;dr: We ascended and skied Mt. Hood (Wy'East) via the south side normal route 
 
 ![Mt Hood from afar](https://lh3.googleusercontent.com/pw/AM-JKLUuYMRlBBSf5dR-661WoEt2Tj5ewOZP9HPrydszkjl-c9A-73DUiRtA9y1w5g9lF__v4tQ6R-7rJ0dKUdGeq2tQqwYN6d2dDuO1bf5CvrqcmEYksGr3wMaeD5ZZz3VgWEPxX8B-cXEUkQs8iUkeNY3C2w=w2104-h1579-no?authuser=1)
 
-I spent May 2022 in Portland Oregon, a city with amazing access to Nature. Mt Hood is the state's highest point, a glaciated volcano only less than two hours from downtown. May has been rather rainy, preventing me with views of the white peak from the city. (I will update this blog post once I get a picture of the mountain from the city). However, having visited Timberline Lodge twice in the past, I knew I wanted to summit Mt. Hood one day.
+I spent May 2022 in Portland Oregon, a city with amazing access to Nature. Mt Hood is the state's highest point, a glaciated volcano only less than two hours from downtown. May has been rather rainy, preventing me with views of the white peak from the city. However, having visited Timberline Lodge twice in the past, I knew I wanted to summit Mt. Hood one day.
+
+TODO photo of Mt. Hood.
 
 Weather has been rather tricky to time for Mt. Hood. My ski partner Esther and I had a few days in mind for Hood, but high winds, low visibility, and potential avy risk made many days not a possibility. We were fortunate that Monday May 16th finally worked out --conditions were not ideal with low visibility below 9000ft, but at least the clouds cleared up above and the gusts were not too high. With relatively low avy risk, we brought our beacons and left our shovel & probes in the car. I also brought my crampon and ice axe.
 
@@ -32,6 +34,8 @@ Being a rather cloudy day, to the north we had nice views of Adams and Rainier (
 The descent was a on rather nasty sheet of ice. Since we carried our skis all the way up the summit, unlike some other parties who left their skies at Hogsback and downclimbed the Pearly Gates, we were committed to skiing so we traversed the summit ridge towards the *Old Chute*. The ridge was very gusty, with the path only two feet from a 1000+ foot drop onto the northern face of the mountain, and it did not help that my a-framed skis and backpack acted as a sail to catch even more wind. Having been blown off a bike less than two months ago, my tolerance for wind was still rather low, so I traversed part of the ridge on my knees and butt. Finally, we got to the old chute, found a relatively flat part of the mountain, and began transitioning for our descent.
 
 ![Old Chute {caption: Esther looking at the Old Chute}](https://lh3.googleusercontent.com/pw/AM-JKLUIIC8zlSoa33ubNSOxgJztWWesgWavyQ8tnBx3zyHO-jHpWg-YwtXQfGqEB4NzAoxo1uuXhPCExYvDjvPDgaw6ma4hhVN2rOjc9Rj45XEA_mvKgMzIxj5Af6WPYrPmlofmmLpu3JJIHVC3s3pYOKF96w=w2104-h1405-no?authuser=1)
+
+TODO GOPRO video
 
 Descent conditions were not pleasant. The Old Chute was a 40-45 degree nasty sheet of frozen ice. Many jump turns were required to navigate the narrow bowl, each turn for me resulting in some more sliding and vibrations on my foot as I tried to catch my ski edge. The slope angle eventually mellowed out, and I took out my camera to get some nice ski action shots.
 
