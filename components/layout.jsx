@@ -29,9 +29,9 @@ export default function Layout({ children, home, post }) {
         />
         <meta
           property="og:image"
-          content="https://qandrew.vercel.app/images/me.jpg"
+          content="https://lh3.googleusercontent.com/pw/AM-JKLWFJrFogZLv_Qf_OLvTsijyLVBUqK7wGLG1ZrRE8oO5WBlJfzhMCk2IS7L4v1Va0AwceR7XeZoc7jNXB7GFGbE5Yar3LpGua2M50c27AlJouyb_0V3zST5QY_JRRqjkUFJJiRsVN3ORJbxmhuZXkik3=w1430-h953-no"
         />
-        <meta name="og:title" content={siteTitle} />
+        {/* <meta name="og:title" content={siteTitle} /> */}
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
 

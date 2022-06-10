@@ -14,7 +14,7 @@ The ride down to Santa Barbara is split into the following three segments:
 - Day 2: Monterrey to Morro Bay via Big Sur. 122 miles, 8000ft.
 - Day 3: Morro Bay to Santa Barbara. 128 miles, 5200ft.
 
-This ride also traces a plot line from [The Graduate](https://en.wikipedia.org/wiki/The_Graduate), one of my favorite movies.
+This ride also traces a plot line from [The Graduate](https://en.wikipedia.org/wiki/The_Graduate), one of my favorite movies (I won't go further into this lest I provide spoilers 😉).
 
 ### Logistics
 
@@ -23,7 +23,7 @@ With the registration fee, SAG drivers will help you transport your luggage from
 Food and water are provided at rest stops along the way of each ride, and Costco Pizza will provide the much needed calories at the end of the day.
 I cannot express how grateful I am towards all the organizers and volunteers who made this experience happen.
 
-![Bags {caption: bags and food await at the end of each day}](https://lh3.googleusercontent.com/lSYkLi8N_vqzZ3BJlQJf7sy4V5Vsue21XCmU2vNW72P9fN3X5-4EpEkWnUvf2arlWIOMVbfWydQUo-Xm--6j-pR1HKI23qNjfv0XMri0lSl5peLEpMloEqZjRc6spOB84EdyBI_pGYnUEX69PI5E7DJ6rJ4RpGrcnp0lEjjFBp75tsz50VKc6GtMykKrEZhRsIrn_kbr2LzhGoOjWkCM7Pmq7hulxa1uixwdKkaJ_wvt4nmH_vLGECEbFDcQHpjOfBjRwLEVtONd57p6aAOyDjpR9PBURE8-BgH81sdjXVehuQnR0QXTHXQvSzU1kGsEtAQb_2DEBMHYMBa4RplvhjiS36MVrtdZ1vueDnYxWdbmDWJkpzI7ZmuW1wiBd9sCfF1eByv-Hpd7_f5O7JWqTxRbrl3zLmG11fSjGxKyys2ANUhF260jt1rhlehJ4Htq7--0qligTqRsvP-h6ofrpJULDugiLqM1IFsilVgeGiWnXzADcMiHlLbWBnTOVtY5ymMa5biF9-QFWHfAnNSHy7va7bBemPHGwP94x53D3_41QGybBzv-yCXmdrKXfzkQ0vQYO30jhUeVj5JJ_UmwrPn-6xBsuaZYLazs5fybfB8t-gbxkz0OLJtJXb7VvdRXckn6PjbMZITM2yR56weLAPxqG6DwkjxtLZe5jGc1_hEFo4CleOxybto4ktz6dO29hlg6ANxkSz4BtIyBcmcF9Zwquy_iMfDIojuN92prSPhowcn1b1zTsbThJzPzVmu6Y72XmNp-wYtJfyJtwmeJTAQlIsRMNxxga7tX=w1226-h919-no)
+![Bags {caption: Bags and food await at the end of each day}](https://lh3.googleusercontent.com/lSYkLi8N_vqzZ3BJlQJf7sy4V5Vsue21XCmU2vNW72P9fN3X5-4EpEkWnUvf2arlWIOMVbfWydQUo-Xm--6j-pR1HKI23qNjfv0XMri0lSl5peLEpMloEqZjRc6spOB84EdyBI_pGYnUEX69PI5E7DJ6rJ4RpGrcnp0lEjjFBp75tsz50VKc6GtMykKrEZhRsIrn_kbr2LzhGoOjWkCM7Pmq7hulxa1uixwdKkaJ_wvt4nmH_vLGECEbFDcQHpjOfBjRwLEVtONd57p6aAOyDjpR9PBURE8-BgH81sdjXVehuQnR0QXTHXQvSzU1kGsEtAQb_2DEBMHYMBa4RplvhjiS36MVrtdZ1vueDnYxWdbmDWJkpzI7ZmuW1wiBd9sCfF1eByv-Hpd7_f5O7JWqTxRbrl3zLmG11fSjGxKyys2ANUhF260jt1rhlehJ4Htq7--0qligTqRsvP-h6ofrpJULDugiLqM1IFsilVgeGiWnXzADcMiHlLbWBnTOVtY5ymMa5biF9-QFWHfAnNSHy7va7bBemPHGwP94x53D3_41QGybBzv-yCXmdrKXfzkQ0vQYO30jhUeVj5JJ_UmwrPn-6xBsuaZYLazs5fybfB8t-gbxkz0OLJtJXb7VvdRXckn6PjbMZITM2yR56weLAPxqG6DwkjxtLZe5jGc1_hEFo4CleOxybto4ktz6dO29hlg6ANxkSz4BtIyBcmcF9Zwquy_iMfDIojuN92prSPhowcn1b1zTsbThJzPzVmu6Y72XmNp-wYtJfyJtwmeJTAQlIsRMNxxga7tX=w1226-h919-no)
 
 After registering, a rider only really needs to worry about the following: finding a group to ride with, booking hotels for the two nights, and determining travel plans to San Francisco and from Santa Barbara.
 
