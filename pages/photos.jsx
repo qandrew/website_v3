@@ -129,6 +129,7 @@ function Photos({ images }) {
       <Head>
         <title>
           Photography |
+          {' '}
           {name}
         </title>
       </Head>
