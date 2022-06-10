@@ -27,15 +27,15 @@ export default function Layout({ children, home, post }) {
           name="description"
           content="Learn how to build a personal website using Next.js"
         />
+        {/* TODO: image should be page based */}
         <meta
           property="og:image"
-          content="https://qandrew.vercel.app/images/me.jpg"
+          content="https://lh3.googleusercontent.com/pw/AM-JKLWFJrFogZLv_Qf_OLvTsijyLVBUqK7wGLG1ZrRE8oO5WBlJfzhMCk2IS7L4v1Va0AwceR7XeZoc7jNXB7GFGbE5Yar3LpGua2M50c27AlJouyb_0V3zST5QY_JRRqjkUFJJiRsVN3ORJbxmhuZXkik3=w1430-h953-no"
         />
-        <meta name="og:title" content={siteTitle} />
+        {/* <meta name="og:title" content={siteTitle} /> */}
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
 
-      {/* TODO: header / padding shifts when an image is in markdown file */}
       <nav className="px-2 sm:px-4 py-2.5 mx-auto bg-white rounded">
         <div className="flex flex-wrap justify-between items-center">
           <Link href="/">
