@@ -31,11 +31,11 @@ Unlike Shasta where false summits and plateaus continually deceive where the sum
 
 Being a rather cloudy day, to the north we had nice views of Adams and Rainier (but Helens was below the clouds), and to the south we could see Jefferson (but not the Sisters). We stayed for a bit, got some pictures, chatted with some other parties, and began to make our way down.
 
-The descent was a on rather nasty sheet of ice. Since we carried our skis all the way up the summit, unlike some other parties who left their skies at Hogsback and downclimbed the Pearly Gates, we were committed to skiing so we traversed the summit ridge towards the *Old Chute*. The ridge was very gusty, with the path only two feet from a 1000+ foot drop onto the northern face of the mountain, and it did not help that my a-framed skis and backpack acted as a sail to catch even more wind. Having been blown off a bike less than two months ago, my tolerance for wind was still rather low, so I traversed part of the ridge on my knees and butt. Finally, we got to the old chute, found a relatively flat part of the mountain, and began transitioning for our descent.
-
 ![Old Chute {caption: Esther looking at the Old Chute}](https://lh3.googleusercontent.com/pw/AM-JKLUIIC8zlSoa33ubNSOxgJztWWesgWavyQ8tnBx3zyHO-jHpWg-YwtXQfGqEB4NzAoxo1uuXhPCExYvDjvPDgaw6ma4hhVN2rOjc9Rj45XEA_mvKgMzIxj5Af6WPYrPmlofmmLpu3JJIHVC3s3pYOKF96w=w2104-h1405-no?authuser=1)
 
-TODO GOPRO video
+The descent was a on rather nasty sheet of ice. Since we carried our skis all the way up the summit, unlike some other parties who left their skies at Hogsback and downclimbed the Pearly Gates, we were committed to skiing so we traversed the summit ridge towards the *Old Chute*. The ridge was very gusty, with the path only two feet from a 1000+ foot drop onto the northern face of the mountain, and it did not help that my a-framed skis and backpack acted as a sail to catch even more wind. Having been blown off a bike less than two months ago, my tolerance for wind was still rather low, so I traversed part of the ridge on my knees and butt. Finally, we got to the old chute, found a relatively flat part of the mountain, and began transitioning for our descent.
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/E9XShSFxyYw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 Descent conditions were not pleasant. The Old Chute was a 40-45 degree nasty sheet of frozen ice. Many jump turns were required to navigate the narrow bowl, each turn for me resulting in some more sliding and vibrations on my foot as I tried to catch my ski edge. The slope angle eventually mellowed out, and I took out my camera to get some nice ski action shots.
 
