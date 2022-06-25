@@ -5,7 +5,7 @@ is_blog: false
 tags: ['trip-reports', 'skiing']
 ---
 
-![On Top of Shasta {caption: On top of Shasta!}](https://lh3.googleusercontent.com/G1yVjc_Ab73BMAiu1ASzJC7WWMbs5QluhRJW_wlNMWiW8Z_TX3c0zRPZ6mA5HH72IFpRX-ualWnFIAWY3kQ611_SNlbLVKAE7SjPVU-Zahhfx11ZjNTIfS1fR9P34IKZiaMWfrDaUlg32XVMPGhCcah1FjU_QeGxYurGIk4bzTsjSuOI_Bjot4jgwdHzFLFYy4tP5HgnckH4R2cDWfiL89mtoCinpD1jFOw-kDOMx_4zwKvk-QehaMKJH_0SzE-6aVx9ALbq3VOeGTJH51NqkLIvATvze_fZCmxBkxUO5lFq4Mj3J7_JZIiWU-5ZNyXvr4euYA6B0Fkw3w1RY1_fbWRnisPSUEEyfc0h0T1TzpQWqZpbp-t5nEK9fUVR3qLvk_3YbSU4pCT1V2W7hrELGbTuZ4nBbTMabndKFEpck14NNZ7OXeO1Ou6tbg0lyGf0u_5yrKaI3aaWVaJF2TBL7kWDlh7dfWRrv5FPTzfcnfApXu1KBHhgnfAMb8qvP7aDm6920mjdLBmY2INnSkOXtD3012LqwdUoqVH3h0iMjHsXz4n0v_SL1Kzvkk67IEh9sJxEvxCMFqoO0nVVTVgWWktY1FOS4JPOICVEZbSUKqgVAHXEJAgW3w037rWFMB7fwOXde-XHmjGWN_yKNqyjdMzBqRoRuKAl9eUHU2NIgQxRkJ9HzlG-BQBlEb4ayjyEaiqXFWY_xgWHS9dS1xBPYJuQi1zhLXUMdyA6ZuY7J10gThDkieLDETre7nJO7iB2h6FT9XPbhe9ArJC3vTYTeokt5_IbZcI6bhg6=w1307-h981-no)
+![On Top of Shasta {caption: On top of Shasta!}](https://lh3.googleusercontent.com/pw/AM-JKLVdiDiWBRFJyJly90re7dkJ72hUDzc6KXa8kDrfdBuoa3f3mMU7aIGXxDtlqFfvzw4QS8gdusgsCRQ2nYu5wKdZIY5fLF2x0DqTJsb1q6vloDbWhhl7-iAYkekp4qkFgPLzKYbd-eIGbj0l7GZ-MZkn=w1307-h981-no)
 
 Here is a list of some of my most interesting activities grouped by sport. Feel free to use the Strava activities as references, and you're welcome to message me if I can provide any further information. Some of these trips will also have trip reports attached.
 
