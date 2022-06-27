@@ -7,7 +7,7 @@ tags: ['trip-reports', 'skiing']
 
 tl;dr: We ascended and skied Mt. Hood (Wy'East) via the south side normal route up the Pearly Gates and down the Old Chute.
 
-![Mt Hood from afar](https://lh3.googleusercontent.com/pw/AM-JKLX8c9wZ9PAWQugNN8XQZnpzVXPjFwxVSLalZDWDhPAET3BuaGyy7N1VmHLizoLTcsKxV8CmUrIxcyecLix9tEfcUSkt9vTg9Yp2h4kHBu5pxs1VgoUNSx2PD0uhRDDRzwGJlO7q77ehj7VGDh2a7fM1=w1471-h981-no)
+![Mt Hood from afar](https://lh3.googleusercontent.com/pw/AM-JKLUuYMRlBBSf5dR-661WoEt2Tj5ewOZP9HPrydszkjl-c9A-73DUiRtA9y1w5g9lF__v4tQ6R-7rJ0dKUdGeq2tQqwYN6d2dDuO1bf5CvrqcmEYksGr3wMaeD5ZZz3VgWEPxX8B-cXEUkQs8iUkeNY3C2w=w2104-h1579-no)
 
 I spent May 2022 in Portland, Oregon, a city with amazing access to Nature. Mt Hood is the state's highest point, a glaciated volcano only less than two hours from downtown. May has been rather rainy, preventing me with views of the white peak from the city. Having visited Timberline Lodge twice in the past, I knew I wanted to summit Mt. Hood one day.
 
