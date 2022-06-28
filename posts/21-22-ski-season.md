@@ -17,6 +17,8 @@ All things come to an end, and here is my wrap up post for the 2021-2022 Ski Sea
 
 **Turns All Year** Originally I wanted to go for Turns All Year, the idea of skiing every month of the year. I got a head start on this project kicking off the season in late October in British Columbia. However, it ended up being a dry winter in California and I threw in the towel in late May, realizing that I had other priorities for the summer months. Nonetheless my ski season spanned 8 months, definitely a new record for me!
 
+![Hood {caption: up the Hogsback on Mt. Hood}](https://lh3.googleusercontent.com/pw/AM-JKLW9jgSeTXmoKlA1sXEa0aCuTnxn-H3CvPlwwfLveTFd39YOq8-Mv2QWdvlK4q7V24l71txV9PLmacxkLjQOpiRlonl5lYI4deK778RIzuhMnUtc-v5Su42OlMoFdfCfz7mVkFOuDqjHtYTBqda7LjprHA=w758-h1009-no)
+
 **Backcountry Skiing** Through 11 tours, I covered 81 miles and 38,000 vertical feet in four states (CA, NV, OR, WA) and one Canadian province (BC).
 Skiing the Ski Dreams line off of Matterhorn Peak (11mi, 5100ft) was a huge challenge for me, and I'm thankful that Rory, Kyle, and others showed me around that day. The hardest day for me was Shasta C2C (12mi, 7200ft) representing the high water mark in both elevation and elevation gain --the epitomy of type II fun. Following Shasta, touring Helens and [Hood](/posts/mt-hood) in May were much more pleasant and in my fitness range. See my [trip reports](/posts/trip-reports) for more details on tours!
 
