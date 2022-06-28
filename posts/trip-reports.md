@@ -7,11 +7,11 @@ tags: ['trip-reports', 'skiing']
 
 ![On Top of Shasta {caption: On top of Shasta!}](https://lh3.googleusercontent.com/ZP5kbs7vkubyZEYaBKSSHDOug01rsVJwHJ8fLjYywrk7hINl0SYcldNOyKNcByns01xw5zdqcmKjzVk_isGDaWTGdP_blAkoZ0hKqxtaIo6Yk64SDpnGwF57CKg1OTOw7zRZ6WXWOIpTJjc9Rlj0VZXi2B5K7F6_BpjQVAYpAlKh4chCryN8Cb_ALAWw4XNxTfzIQarS3kp7v5vym0ExuLHZqgtoZ1yfieeVS10t3TsZn3U5rJidudUjniMcD56g1CYk3eNyhkn5jvxXwNWlrZMt1Q9sE4P8_Jw5iiqLtBvgil-P17Zq2k7r7ge8CSvsVz6AmZnSYwP-Ef5VC_BtFLE8Kjgqnuh0mhmKJ_xKEoJ8_q1XAWPvrgaAdKA9gFfZXPkGOfGc-4j5UvWwOEHuP9_EhAWCm_oZbL5lupZeFUWvh0DrfOxwmabUcqOaCZd1aWc9ifd5BekvaljINGeftd4isVGuW_gaC37eU7vSGaTCD3jLdNoGTZgKJoGasZTeNkVlXwKxJvpZWqH1R1JUo5A-mgtFCEtCZLC0FFTn5s83ZTf9vouTYQFMYxfpGwc53LHCz2mITWzLcZhgZQIKcA3ovn5NfrOzaarCwCE4kEgQ4ZIPAtEHFMd59L8icWsuaJk5-1bZWsO2tGFanY-6KCsE_hSCexJ_pwpgP0OBOhdt09L0IZWtidHdw8Lwpd1LNmTke-t9PwGsJ_A_pWE40ab0aezqmxSpYmb5HndzVHgB409XSITJ8V92Njscza9X7CShJ_ITSw0lILG6ULqTWAsHUs3wvnbTfRAK=w1226-h919-no)
 
-Here is a list of some of my most interesting activities grouped by sport. Feel free to use the Strava activities as references, and you're welcome to message me if I can provide any further information. Some of these trips will also have trip reports attached.
+In the past few years, I've really enjoyed exploring the outdoors through many sports. Here is a list of some of my most memorable activities grouped by sport. Feel free to use the Strava links as references, and you're welcome to message me if I can provide any further information. Some of these trips will also have trip reports attached.
 
 ## Cycling
 
-- *Jan 2022*, The Coast Ride: 380 miles over 3 days from San Francisco to Santa Barbara. Strava [D1](https://www.strava.com/activities/6530083722) [D2](https://www.strava.com/activities/6535905314) [D3](https://www.strava.com/activities/6540755937), [Trip Report](/posts/coast-ride).
+- *Jan 2022*, The Coast Ride: 380 miles over 3 days from San Francisco to Santa Barbara. Strava [D1](https://www.strava.com/activities/6530083722) [D2](https://www.strava.com/activities/6535905314) [D3](https://www.strava.com/activities/6540755937), [Trip Report](/posts/coast-ride)
 - *Oct 2021*, Hurricane Ridge: 5200ft climb in Olympic National Park. [Strava](https://www.strava.com/activities/6062839766)
 - *Jun 2021*, Yosemite Tioga Pass. [Strava](https://www.strava.com/activities/5420609790)
 - *May 2021*, Haleakala. 10000ft climb. [Strava](https://www.strava.com/activities/5265697501)
@@ -28,11 +28,9 @@ Some other interesting rides: Embalse de Yeso (Chile), Pt Reyes Lighthouse, Wach
 - *May 2022*, Mt. Shasta via Avalanche Gulch. [Strava](https://www.strava.com/activities/7089678730)
 - *Mar 2022*, Ski Dreams, Matterhorn Peak, Eastern Sierras. [Strava](https://www.strava.com/activities/6888575332)
 
-Some other interesting tours: Shovelnose Creek, Relay Peak, Jay Peak
+Also check out my [2021-2022 Season Review](/posts/21-22-ski-season)!
 
 ## Mountaineering
-
-Denali has been a life dream of mine, and I would love to get there one day.
 
 - *Jul 2021*, Mt. Rainier *attempt*\* via Dissapointment Cleaver. [Strava](https://www.strava.com/activities/5718814309)
 - *Jul 2021*, Mt. Baker via Squak Glacier. Strava [D1](https://www.strava.com/activities/5701980073) [D2](https://www.strava.com/activities/5702007416)
@@ -41,7 +39,7 @@ Denali has been a life dream of mine, and I would love to get there one day.
 
 \* Due to a warm evening, [no one could summit that day](https://mountrainierclimbing.blogspot.com/2021/07/dc-route-update-731.html) 😡
 
-Other mountains: Pico Austria in Bolivia, attempt on [Cerro El Plomo](/posts/el-plomo), attempt on Siguniang.
+Denali has been a life dream of mine, and I would love to get there one day. Other mountains that I attempted include: Pico Austria in Bolivia, attempt on [Cerro El Plomo](/posts/el-plomo), attempt on Siguniang.
 
 ## Other
 

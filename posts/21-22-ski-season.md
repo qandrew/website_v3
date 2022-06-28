@@ -1,6 +1,6 @@
 ---
 title: 'The 2021-2022 Ski Season in Review'
-date: '2022-06-11'
+date: '2022-06-28'
 is_blog: true
 tags: ['skiing']
 ---
@@ -20,16 +20,17 @@ All things come to an end, and here is my wrap up post for the 2021-2022 Ski Sea
 ![Hood {caption: up the Hogsback on Mt. Hood}](https://lh3.googleusercontent.com/pw/AM-JKLW9jgSeTXmoKlA1sXEa0aCuTnxn-H3CvPlwwfLveTFd39YOq8-Mv2QWdvlK4q7V24l71txV9PLmacxkLjQOpiRlonl5lYI4deK778RIzuhMnUtc-v5Su42OlMoFdfCfz7mVkFOuDqjHtYTBqda7LjprHA=w758-h1009-no)
 
 **Backcountry Skiing** Through 11 tours, I covered 81 miles and 38,000 vertical feet in four states (CA, NV, OR, WA) and one Canadian province (BC).
-Skiing the Ski Dreams line off of Matterhorn Peak (11mi, 5100ft) was a huge challenge for me, and I'm thankful that Rory, Kyle, and others showed me around that day. The hardest day for me was Shasta C2C (12mi, 7200ft) representing the high water mark in both elevation and elevation gain --the epitomy of type II fun. Following Shasta, touring Helens and [Hood](/posts/mt-hood) in May were much more pleasant and in my fitness range. See my [trip reports](/posts/trip-reports) for more details on tours!
+Skiing the Ski Dreams line off of Matterhorn Peak (11mi, 5100ft) was a huge challenge for me, and I'm thankful that Rory, Kyle, and others showed me around that day. The hardest day for me was Shasta C2C (12mi, 7200ft) representing the high water mark in both elevation and elevation gain --the epitome of type II fun.
+Following Shasta, touring Helens and [Hood](/posts/mt-hood) in May were much more pleasant and in my fitness range. See my [trip reports](/posts/trip-reports) for more details on tours!
 
 ![Ski {100xxx50} {caption: Analyzing my Strava data and plotting my elevation gain vs distance}](/images/bc_ski_plot.png)
 
 **Alpine Skiing** For the 2021-22 season, I had an Epic Pass. I took a couple of trips this winter: December to Stowe, January to Colorado (Beaver Creek, Vail, Keystone), January to Utah (Park City, Snowbasin), and weekend trips to Tahoe (Heavenly, Kirkwood) for the rest of the season.
 I had a couple of solid powder days in Colorado but otherwise the snow was mostly underwhelming in California. That said, for me it's more about the social experience of traveling with friends and making new ones that count.
 
-## Resources
+## Skiing Culture
 
-I've been reading maybe too much about skiing; here are some sites and YouTube channels that I have been following:
+I've been reading maybe too much about skiing; below are some blogs and channels that I have been following, in addition to some resources for trip planning and meeting the general backcountry skiing community:
 
 **Alpine Skiing Media** 
 - [Storm Skiing](https://www.stormskiing.com/)
@@ -37,11 +38,10 @@ I've been reading maybe too much about skiing; here are some sites and YouTube c
 - [Snowbrains](https://snowbrains.com/)
 
 **Backcountry Skiing Media**
-- Video: [Mediocre Amateur](https://www.facebook.com/groups/turnsallyear) --highly underrated youtube channel with great adventures and even better editing and storytelling.
-- Video: Cody Townsend's [The Fifty Project](https://www.youtube.com/c/CodyTownsend)
+- Video: [Mediocre Amateur](https://www.facebook.com/groups/turnsallyear) --highly underrated youtube channel with great adventures and even better editing and storytelling. Cody Townsend's [The Fifty Project](https://www.youtube.com/c/CodyTownsend) is also very inspirational.
 - Trip Reports: [Turns All Year](https://turns-all-year.com/)
-- Blog: [Climber Kyle](https://climberkyle.com/)
-- Blog: [Engineered for Adventure](https://engineeredforadventure.com/)
+- Blogs: Blogs are very helpful to get beta on lines and conditions, here are some I've found helpful: [Climber Kyle](https://climberkyle.com/), [Engineered for Adventure](https://engineeredforadventure.com/)
+- Books: Guide books are also great for knowing where to go, for example you can find information about lines in the [Eastern Sierras](https://www.wolverinepublishing.com/store/backcountry-skiing-eastern-sierra/), [Washington](https://www.mountaineers.org/books/books/backcountry-ski-snowboard-routes-washington), and other places.
 
 **Communities**
 
@@ -63,4 +63,4 @@ Backcountry skiing is a relatively niche community, so meeting people can be a c
 - Car Camping is underrated. For my May ski adventures in the PNW, most of them were done by sleeping in the trailhead the night before. I felt much more energetic during the day compared to my Tahoe trips where some days began at 5am and involved driving for 4 hours before starting the tour. Driving is surprisingly tiring, which is both a blessing (if you drive the night before, it'll help you sleep better) and a curse (if you drive the day of, your tour will be tiring).
 - Backcountry Skiing is a great way to meet new people and make friends! I met some people on the Facebook groups and really got along with people.
 - What's next? For next ski season, I would love to do a ski traverse (Tahoe, Spearhead, etc). A Rainier C2C would be the dream, though weather will be harder to time as I do not live in the PNW.
-- Work life balance is a challenge.
+<!-- - Work life balance is a challenge. -->
