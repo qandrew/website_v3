@@ -8,7 +8,7 @@ tags: ['travel']
 <!-- TODO: cover photo -->
 ![El Plomo](/images/1907_eclipse/header.jpg)
 
-I had been wanting to see a solar eclipse since when I first learned about them in first grade, and I distinctly remember in second grade while I was doing 体操 at 图强二小, I would look up directly at the sun, hoping to see an eclipse, and my mind would play games with me simulating how an eclipse may look. As a relatively rare natural phenomenon, occurring once every 18 months in a very lucky region of the world, it had always been my dream to witness one. I saw the partial eclipse in Hanian in 2009 and I was in [Boston](https://eurweb.com/2017/08/23/barack-michelle-obama-move-malia-harvard-solar-eclipse-video/) during the Great American Eclipse in 2017.
+I had been wanting to see a solar eclipse since when I first learned about them in first grade, and I distinctly remember in second grade while I was doing 体操 at 图强二小, I would look up directly at the sun, hoping to see an eclipse, and my mind would play games with me simulating how an eclipse may look. As a relatively rare natural phenomenon, occurring once every 18 months in a very lucky region of the world, it had always been my dream to witness one. I saw the partial eclipse in Hainan in 2009 and I was in [Boston](https://eurweb.com/2017/08/23/barack-michelle-obama-move-malia-harvard-solar-eclipse-video/) during the Great American Eclipse in 2017.
 
 As I am spending this year as a Fulbright scholar in Santiago de Chile, one of my motivating reasons to come to Chile was the possibility to see the solar eclipse in July 2019, fulfilling a lifelong dream.
 
