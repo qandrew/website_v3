@@ -32,6 +32,7 @@ Also check out my [2021-2022 Season Review](/posts/21-22-ski-season)!
 
 ## Mountaineering
 
+- *Jul 2022*, Cotopaxi via Rompe Corazones. [Strava](https://www.strava.com/activities/7505859013)
 - *Jul 2021*, Mt. Rainier *attempt*\* via Dissapointment Cleaver. [Strava](https://www.strava.com/activities/5718814309)
 - *Jul 2021*, Mt. Baker via Squak Glacier. Strava [D1](https://www.strava.com/activities/5701980073) [D2](https://www.strava.com/activities/5702007416)
 - *Aug 2019*, Huayna Potosi via normal route, Bolivia. 6088m/19974ft. [Strava](https://www.strava.com/activities/2651542902)
@@ -43,6 +44,7 @@ Denali has been a life dream of mine, and I would love to get there one day. Oth
 
 ## Other
 
+- *Aug 2022*, Choquequirao Incan Ruins R2R2R. [Strava](https://www.strava.com/activities/7617130684)
 - *Apr 2021*, Mauna Kea. [Strava](https://www.strava.com/activities/5112187456)
 - *Jul 2020*, Whitney. Highest point in contiguous United States. [Strava](https://www.strava.com/activities/3824802590)
 - *Jul 2019*, El Eclipse Solar in La Serena, Chile. [Strava](https://www.strava.com/activities/2500805413), [Blog post](/posts/eclipse)
