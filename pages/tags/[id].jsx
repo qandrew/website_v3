@@ -5,18 +5,18 @@ import Layout, { name } from '../../components/layout';
 import { getSortedTaggedPostsData } from '../../lib/posts';
 import Date from '../../components/date';
 
-export async function getStaticPaths() {
-  // TODO: should tags be not limited? move elsewhere
-  const paths = [
-    { params: { id: 'trip-reports' } },
-    { params: { id: 'skiing' } },
-    { params: { id: 'blog' } },
-    { params: { id: 'travel' } },
-    { params: { id: 'cycling' } },
-  ];
+// TODO: should tags be not limited? move elsewhere
+export const tags = [
+  { params: { id: 'trip-reports' } },
+  { params: { id: 'skiing' } },
+  { params: { id: 'blog' } },
+  { params: { id: 'travel' } },
+  { params: { id: 'cycling' } },
+];
 
+export async function getStaticPaths() {
   return {
-    paths,
+    paths: tags,
     // fallback: true allows for non 404 page
     // even if they are not in the paths list
     // however params will not be loaded properly
