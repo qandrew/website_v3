@@ -1,12 +1,12 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout, { name } from '../../components/layout';
-// import { tags } from './[id]';
 
-// TODO: show all tags and link to them
 // TODO: maybe this should appear in navbar also
 
-const tags = [
+// TODO: remove need to set list of tags?
+// TODO: move elsewhere, circular dependencies in [id.jsx]
+export const tagsList = [
   { params: { id: 'trip-reports' } },
   { params: { id: 'skiing' } },
   { params: { id: 'blog' } },
@@ -26,14 +26,17 @@ export default function Tag() {
           {name}
         </title>
       </Head>
-      <p>You found this under construction page. Here are all tags...</p>
-      <ul className="m-0 list-disc">
-        {tags.map(({ params }) => (
-          <li className="p-0" key={params.id}>
-            <Link href={`/posts/${params.id}`}>{params.id}</Link>
-          </li>
-        ))}
-      </ul>
+      <article className="prose max-w-none">
+        <h2>All Tags</h2>
+        <p>You found a page still under construction! Here is a list of all tags:</p>
+        <ul className="m-0">
+          {tagsList.map(({ params }) => (
+            <li className="p-0 m-0" key={params.id}>
+              <Link href={`/tags/${params.id}`}>{params.id}</Link>
+            </li>
+          ))}
+        </ul>
+      </article>
     </Layout>
   );
 }
