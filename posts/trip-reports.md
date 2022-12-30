@@ -44,7 +44,7 @@ Denali has been a life dream of mine, and I would love to get there one day. Oth
 
 ## Other
 
-- *Dec 2022*, Cactus to Clouds, 10500ft hike. [Strava](https://www.strava.com/activities/8287783603)
+- *Dec 2022*, Cactus to Clouds, 10500ft hike. [Strava](https://www.strava.com/activities/8287783603), [Trip Report](/posts/cactus-to-clouds)
 - *Dec 2022*, California International Marathon. 3:21:36. [Strava](https://www.strava.com/activities/8207881941)
 - *Aug 2022*, Choquequirao Incan Ruins R2R2R. [Strava](https://www.strava.com/activities/7617130684)
 - *Apr 2021*, Mauna Kea. [Strava](https://www.strava.com/activities/5112187456)
