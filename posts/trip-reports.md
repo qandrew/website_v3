@@ -23,6 +23,8 @@ Some other interesting rides: Embalse de Yeso (Chile), Pt Reyes Lighthouse, Wach
 
 ## Backcountry Skiing
 
+- *May 2023*, Mt. Whitney, Mountaineers Route. [Strava](https://www.strava.com/activities/9031650470), *Trip Report Coming*
+- *Mar 2023*, Adventures in Alaska: [Turnigain Pass](https://www.strava.com/activities/8744572335), [Peak 3](https://www.strava.com/activities/8755981469), [Mt. Eva](https://www.strava.com/activities/8777828116), and [Hatcher Pass](https://www.strava.com/activities/8783724809). *Trip Report Coming*
 - *May 2022*, Mt. Hood via Hogsback. [Strava](https://www.strava.com/activities/7154437159), [Trip Report](/posts/mt-hood)
 - *May 2022*, Mt. St. Helens via Worm Flows. [Strava](https://www.strava.com/activities/7128048861)
 - *May 2022*, Mt. Shasta via Avalanche Gulch. [Strava](https://www.strava.com/activities/7089678730)
