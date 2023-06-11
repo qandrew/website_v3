@@ -1,6 +1,6 @@
 ---
 title: 'Trip Reports'
-date: '2022-12-28'
+date: '2023-06-11'
 is_blog: false
 tags: ['trip-reports', 'skiing']
 ---
@@ -23,6 +23,8 @@ Some other interesting rides: Embalse de Yeso (Chile), Pt Reyes Lighthouse, Wach
 
 ## Backcountry Skiing
 
+- *Jun 2023*, Lassen, NE Face. [Strava](https://www.strava.com/activities/9204269843)
+- *May 2023*, Bloody Mountain, Bloody Couloir. [Strava](https://www.strava.com/activities/9160082131)
 - *May 2023*, Mt. Whitney, Mountaineers Route. [Strava](https://www.strava.com/activities/9031650470), *Trip Report Coming*
 - *Mar 2023*, Adventures in Alaska: [Turnigain Pass](https://www.strava.com/activities/8744572335), [Peak 3](https://www.strava.com/activities/8755981469), [Mt. Eva](https://www.strava.com/activities/8777828116), and [Hatcher Pass](https://www.strava.com/activities/8783724809). *Trip Report Coming*
 - *May 2022*, Mt. Hood via Hogsback. [Strava](https://www.strava.com/activities/7154437159), [Trip Report](/posts/mt-hood)
