@@ -1,6 +1,6 @@
 ---
 title: 'Trip Reports'
-date: '2023-06-11'
+date: '2023-06-20'
 is_blog: false
 tags: ['trip-reports', 'skiing']
 ---
@@ -46,15 +46,18 @@ Also check out my [2021-2022 Season Review](/posts/21-22-ski-season)!
 
 Denali has been a life dream of mine, and I would love to get there one day. Other mountains that I attempted include: Pico Austria in Bolivia, attempt on [Cerro El Plomo](/posts/el-plomo), attempt on Siguniang.
 
-## Other
+## Running
+- *Jun 2023*, Broken Arrow "46k" Skyrace. [Strava](https://www.strava.com/activities/9285148031)
+- *Dec 2022*, California International Marathon. 3:21:36. [Strava](https://www.strava.com/activities/8207881941)
+- *Apr 2019*, Santiago de Chile Marathon. [Strava](https://www.strava.com/activities/2272665421/overview)
+
+## Hiking / Other
 
 - *Dec 2022*, Cactus to Clouds, 10500ft hike. [Strava](https://www.strava.com/activities/8287783603), [Trip Report](/posts/cactus-to-clouds)
-- *Dec 2022*, California International Marathon. 3:21:36. [Strava](https://www.strava.com/activities/8207881941)
 - *Aug 2022*, Choquequirao Incan Ruins R2R2R. [Strava](https://www.strava.com/activities/7617130684)
 - *Apr 2021*, Mauna Kea. [Strava](https://www.strava.com/activities/5112187456)
 - *Jul 2020*, Whitney. Highest point in contiguous United States. [Strava](https://www.strava.com/activities/3824802590)
 - *Jul 2019*, El Eclipse Solar in La Serena, Chile. [Strava](https://www.strava.com/activities/2500805413), [Blog post](/posts/eclipse)
-- *Apr 2019*, Santiago de Chile Marathon. [Strava](https://www.strava.com/activities/2272665421/overview)
 <!-- - *Sep 2018*, Beer Mile [Strava](https://www.strava.com/activities/1831378428/) -->
 - *Jun 2018*, Presidential Traverse [Strava](https://www.strava.com/activities/1645306066)
 
