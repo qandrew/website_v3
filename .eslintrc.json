@@ -9,14 +9,23 @@
         "airbnb"
     ],
     "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": "latest",
+        "warnOnUnsupportedTypeScriptVersion": false,
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "@typescript-eslint",
+        "eslint-plugin-local"
+    ],
+    "ignorePatterns": [
+        "**/node_modules/**",
+        "/built/**",
+        "/tests/**",
+        "/lib/**",
+        "/src/lib/*.generated.d.ts",
+        "/scripts/**/*.js",
+        "/scripts/**/*.d.*",
+        "/internal/**",
+        "/coverage/**"
     ],
     "rules": {
       "react/react-in-jsx-scope": "off",

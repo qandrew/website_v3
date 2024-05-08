@@ -8,7 +8,15 @@ const imageLoc = '/images/me.jpg';
 export const name = 'Andrew Xia';
 export const siteTitle = `${name}'s Blog`;
 
-export default function Layout({ children, home, post }) {
+export default function Layout({
+  children,
+  home = false,
+  post = false
+}: {
+  children: React.ReactNode
+  home?: boolean,
+  post?: boolean
+}) {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   // HACK: photos page should have no max width.
