@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import React from 'react';
 import { useState } from 'react';
 
 const imageLoc = '/images/me.jpg';

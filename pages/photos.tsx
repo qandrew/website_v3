@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import imageList from '../public/images.json';
 import Layout, { name } from '../components/layout';
+import React from 'react';
 
 export async function getStaticProps() {
   return {

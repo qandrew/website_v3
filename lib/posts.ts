@@ -21,7 +21,12 @@ function getAllPostsData() {
     // Combine the data with the id
     return {
       id,
+      // TODO: zod valiation or something
       ...matterResult.data,
+    } as {
+      id: string
+      is_blog: boolean
+      tags: string[]
     };
   });
 }

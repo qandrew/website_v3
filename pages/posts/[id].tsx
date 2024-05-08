@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { getAllPostIds, getPostData } from '../../lib/posts';
 import Layout, { name } from '../../components/layout';
 import Date from '../../components/date';
+import React from 'react';
 
 function cn(...classes) {
   return classes.filter(Boolean).join(' ');

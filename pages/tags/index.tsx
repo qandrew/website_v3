@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout, { name } from '../../components/layout';
+import React from 'react';
 
 // TODO: maybe this should appear in navbar also
 

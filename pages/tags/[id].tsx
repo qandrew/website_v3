@@ -5,6 +5,7 @@ import Layout, { name } from '../../components/layout';
 import { getSortedTaggedPostsData } from '../../lib/posts';
 import Date from '../../components/date';
 import { tagsList } from './index';
+import React from 'react';
 
 export async function getStaticPaths() {
   return {
