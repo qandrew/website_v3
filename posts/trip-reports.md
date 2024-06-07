@@ -1,6 +1,6 @@
 ---
 title: 'Trip Reports'
-date: '2023-06-20'
+date: '2024-06-05'
 is_blog: false
 tags: ['trip-reports', 'skiing']
 ---
@@ -11,6 +11,7 @@ In the past few years, I've really enjoyed exploring the outdoors through many s
 
 ## Cycling
 
+- *Dec 2023*, Generals Highway, Sequoia National Park. [Strava](https://www.strava.com/activities/10436278095)
 - *Jan 2022*, The Coast Ride: 380 miles over 3 days from San Francisco to Santa Barbara. Strava [D1](https://www.strava.com/activities/6530083722) [D2](https://www.strava.com/activities/6535905314) [D3](https://www.strava.com/activities/6540755937), [Trip Report](/posts/coast-ride)
 - *Oct 2021*, Hurricane Ridge: 5200ft climb in Olympic National Park. [Strava](https://www.strava.com/activities/6062839766)
 - *Jun 2021*, Yosemite Tioga Pass. [Strava](https://www.strava.com/activities/5420609790)
@@ -23,10 +24,12 @@ Some other interesting rides: Embalse de Yeso (Chile), Pt Reyes Lighthouse, Wach
 
 ## Backcountry Skiing
 
+- *May 2024*, Mt Agassiz, CA. [Strava](https://www.strava.com/activities/11506279387)
+- *Apr 2024*, Tuckerman Ravine, Hillman's Highway & The Chute. [Strava](https://www.strava.com/activities/11183942011)
 - *Jun 2023*, Lassen, NE Face. [Strava](https://www.strava.com/activities/9204269843)
 - *May 2023*, Bloody Mountain, Bloody Couloir. [Strava](https://www.strava.com/activities/9160082131)
-- *May 2023*, Mt. Whitney, Mountaineers Route. [Strava](https://www.strava.com/activities/9031650470), *Trip Report Coming*
-- *Mar 2023*, Adventures in Alaska: [Turnigain Pass](https://www.strava.com/activities/8744572335), [Peak 3](https://www.strava.com/activities/8755981469), [Mt. Eva](https://www.strava.com/activities/8777828116), and [Hatcher Pass](https://www.strava.com/activities/8783724809). *Trip Report Coming*
+- *May 2023*, Mt. Whitney, Mountaineers Route. [Strava](https://www.strava.com/activities/9031650470)
+- *Mar 2023*, Adventures in Alaska: [Turnigain Pass](https://www.strava.com/activities/8744572335), [Peak 3](https://www.strava.com/activities/8755981469), [Mt. Eva](https://www.strava.com/activities/8777828116), and [Hatcher Pass](https://www.strava.com/activities/8783724809)
 - *May 2022*, Mt. Hood via Hogsback. [Strava](https://www.strava.com/activities/7154437159), [Trip Report](/posts/mt-hood)
 - *May 2022*, Mt. St. Helens via Worm Flows. [Strava](https://www.strava.com/activities/7128048861)
 - *May 2022*, Mt. Shasta via Avalanche Gulch. [Strava](https://www.strava.com/activities/7089678730)
