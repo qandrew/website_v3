@@ -6,11 +6,34 @@ import View from "ol/View";
 import { OGCMapTile, Vector as VectorSource } from "ol/source.js";
 import { Tile as TileLayer, Vector as VectorLayer } from "ol/layer.js";
 import Overlay from "ol/Overlay";
-import { toLonLat } from "ol/proj.js";
-import { toStringHDMS } from "ol/coordinate.js";
+import { fromLonLat } from "ol/proj.js";
 import Fill from "ol/style/Fill";
 import Stroke from "ol/style/Stroke";
 import Style from "ol/style/Style";
+
+// TODO: add more images
+const statesWithData: Record<string, { imageSrc: string }> = {
+  Wyoming: {
+    imageSrc:
+      "https://lh3.googleusercontent.com/pw/AP1GczOKYMOVhU8NNbQL6pS6lrfAidW0aeJehtbsvSZ40ApRGtou_-M0QpzX9HVdiNN4F_Dbf0NH7vDQbkDUgnd3E6fbDh52H1Bch-nFCD3RESamO1vIYPxU6HehjAFJ-bngdRx4XWumWdiRKpP0z4ycdKVoqA=w2582-h1936-s-no-gm",
+  },
+  California: {
+    imageSrc:
+      "https://lh3.googleusercontent.com/pw/AP1GczMpZuoEFNCRBdNc4CAfIsq275sc4eo3BsjBjBWJQE1KMPzLkK2O7skSQW0uWlHuHB3zxbHR9PmVpVRrxRftnpi6KGLUiUYEz0a5oSxKpfBRdovpI49Cet1_KtxjvOX1TKsTl0pzJnCTx-awPQHoumdqWQ=w2582-h1936-s-no-gm",
+  },
+  "New Hampshire": {
+    imageSrc:
+      "https://lh3.googleusercontent.com/pw/AP1GczOMZH4Mtx96IMj6kRrRQA1MozZaOuHLsSn9aJYy2EzlNsv0eePZ_RfLhiZBK-VYntzZDwdEuhnvymJzu7l0eVAUgTSx38lW4vPRyEwisjW23GoeChwDcgisjrDa6PnwmwenYLr67mc3qc3vuLGQFcpMDQ=w2572-h1936-s-no-gm",
+  },
+  Alaska: {
+    imageSrc:
+      "https://lh3.googleusercontent.com/pw/AP1GczPVKiXZvprqWX_ebFZqvneS14SRj4Yqf275Au3N2WfMalMjOZWp1NR11i2TcKr1JsWwzd8IVdA6OJRvdQsI2GwqS1-2FjwX9wSlGhOMT5Uv-iieH0LFIIYCTzSC6myYDDjgMnMCB18bvn5tcGV9L4OfOw=w2572-h1936-s-no-gm",
+  },
+  Arizona: {
+    imageSrc:
+      "https://lh3.googleusercontent.com/pw/AP1GczOYC1rpmRJGF5R5jEv2Gq8LNyJ0Gxt5Gy0fHgyn2qbBs0C8qv7KTdbk65HRu0mDt85hOgg5ehhVfzo6yilMsi0bco61FCapgAh5nzURMYa2PWeeBhcWTRDisYj8KW4ocpT_JVxjocWSufaMh-Y9cN6G7A=w1458-h1936-s-no-gm"
+  },
+};
 
 const statesIveVisited = [
   // "Alabama",
@@ -118,9 +141,10 @@ export default function map() {
     const map = new Map({
       layers: [rasterLayer, statesLayer],
       target: "markerpopupmap",
+      // TODO: limit map zoom to US?
       view: new View({
-        center: [0, 0],
-        zoom: 3,
+        center: fromLonLat([-122, 37]),
+        zoom: 4,
       }),
       overlays: [overlay],
     });
@@ -130,21 +154,21 @@ export default function map() {
      */
     map.on("singleclick", async function (evt) {
       const coordinate = evt.coordinate;
-      const hdms = toStringHDMS(toLonLat(coordinate));
       const stateFeatures = await statesLayer.getFeatures(evt.pixel);
       let stateName: string = "";
       if (stateFeatures.length > 0) {
         stateName = stateFeatures[0].get("name");
       }
-      setPopupContent(`${hdms} in ${stateName}`);
+      setPopupContent(`${stateName}`);
 
-      // content.innerHTML = "<p>You clicked here:</p><code>" + hdms + "</code>";
       overlay.setPosition(coordinate);
     });
     return () => map.setTarget(null);
   }, []);
 
   const [popupContent, setPopupContent] = useState<string | null>(null);
+
+  const stateImage = statesWithData[popupContent || ""];
 
   return (
     <div>
@@ -153,7 +177,13 @@ export default function map() {
         <a href="#" id="popup-closer" className="ol-popup-closer"></a>
         {popupContent && (
           <div id="popup-content">
-            You clicked here: {popupContent}{" "}
+            {stateImage && (
+              <img
+                src={stateImage.imageSrc}
+                style={{ width: "100px", height: "100px" }}
+              />
+            )}
+            {popupContent}{" "}
             <button onClick={() => setPopupContent(null)}>Close</button>
           </div>
         )}
