@@ -44,6 +44,7 @@ const statesIveVisited = [
   "Colorado",
   "Connecticut",
   "Delaware",
+  "District of Columbia",
   "Florida",
   "Georgia",
   "Hawaii",
