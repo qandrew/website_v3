@@ -9,7 +9,7 @@ tags: ['trip-reports', 'skiing']
 
 In the past few years, I've really enjoyed exploring the outdoors through many sports. Here is a list of some of my most memorable activities grouped by sport. Feel free to use the Strava links as references, and you're welcome to message me if I can provide any further information. Some of these trips will also have trip reports attached.
 
-## Cycling
+## Cycling 🚴
 
 - *Jul 2024*, Seattle to Portland. [Strava](https://www.strava.com/activities/11882153043)
 - *Dec 2023*, Generals Highway, Sequoia National Park. [Strava](https://www.strava.com/activities/10436278095)
@@ -23,7 +23,7 @@ In the past few years, I've really enjoyed exploring the outdoors through many s
 
 Some other interesting rides: Embalse de Yeso (Chile), Pt Reyes Lighthouse, Wachusett Mountain, Vancouver's triple crown, West Maui Loop, Palomar. Feel free to message me about road bike recs in Hawaii, San Francisco, Boston, Santiago de Chile, or Vancouver.
 
-## Backcountry Skiing
+## Backcountry Skiing ⛷️
 
 - *May 2024*, Mt Agassiz, CA. [Strava](https://www.strava.com/activities/11506279387)
 - *Apr 2024*, Tuckerman Ravine, Hillman's Highway & The Chute. [Strava](https://www.strava.com/activities/11183942011)
@@ -38,7 +38,7 @@ Some other interesting rides: Embalse de Yeso (Chile), Pt Reyes Lighthouse, Wach
 
 Also check out my [2021-2022 Season Review](/posts/21-22-ski-season)!
 
-## Mountaineering
+## Mountaineering ⛰️
 
 - *Jul 2022*, Cotopaxi via Rompe Corazones. [Strava](https://www.strava.com/activities/7505859013)
 - *Jul 2021*, Mt. Rainier *attempt*\* via Dissapointment Cleaver. [Strava](https://www.strava.com/activities/5718814309)
@@ -50,12 +50,12 @@ Also check out my [2021-2022 Season Review](/posts/21-22-ski-season)!
 
 Denali has been a life dream of mine, and I would love to get there one day. Other mountains that I attempted include: Pico Austria in Bolivia, attempt on [Cerro El Plomo](/posts/el-plomo), attempt on Siguniang.
 
-## Running
+## Running 🏃
 - *Jun 2023*, Broken Arrow "46k" Skyrace. [Strava](https://www.strava.com/activities/9285148031)
 - *Dec 2022*, California International Marathon. 3:21:36. [Strava](https://www.strava.com/activities/8207881941)
 - *Apr 2019*, Santiago de Chile Marathon. [Strava](https://www.strava.com/activities/2272665421/overview)
 
-## Hiking / Other
+## Hiking / Other 🥾
 
 - *Jul 2024*, Mt. Hood Circumnavigation via Timberline Trail. [Strava](https://www.strava.com/activities/11901473187)
 - *Dec 2022*, Cactus to Clouds, 10500ft hike. [Strava](https://www.strava.com/activities/8287783603), [Trip Report](/posts/cactus-to-clouds)
