@@ -7,11 +7,11 @@ tags: ['cycling', 'trip-reports']
 
 One of the rites of passage in cycling is completing a "century," which is a ride over 100 miles. Every year, the Cascade Cycling Club organizes a ride from Seattle to Portland, which, at about 205 miles, would be a double century.
 
-I first heard of Seattle to Portland when I was an undergraduate in college, before I even got into cycling, when some of my friends from the MIT cycling team completed the ride during their summer internships in Seattle. The idea of riding 200 miles in a day sounded insane at first, and I knew it was a ride I wanted to do at some point.
+I first heard of Seattle to Portland when I was an undergraduate in college, before I even got into cycling, when some of my friends from the MIT cycling team completed the ride during their summer internships in Seattle. The idea of riding 200 miles in a day sounded insane at first, but I knew it was a ride I wanted to do at some point.
 
 ![Start {caption: 5:20am Start of STP at University of Washington}](https://lh3.googleusercontent.com/pw/AP1GczPwZx0OLc4aXkhSHInwybPMZ0VEEII8ez1S2dPAfM9SsqUGKTEsyBowtchoozRbwOpkGmTrrpNEOiaR9um9LnPqaJl7dSXnQKykOXupTMWNMrLuu4WWFt_xLMk9gLcoKrfHQGOAI2vQ6wvg8pjOI2NkPw=w1452-h1936-s-no-gm)
 
-I did the ride with my friends Wade and Ying-Yu. We were considering riding either the [Death Ride](https://deathride.com/) in the California Sierras, or [Seattle to Portland](https://en.wikipedia.org/wiki/Seattle_to_Portland_Bicycle_Classic), as both happen the same weekend. We ended up deciding to do STP this year, and maybe I'll try to ride Death Ride another year.
+I did the ride with my friends Wade and Ying-Yu. For this summer, we were considering riding either the [Death Ride](https://deathride.com/) in the California Sierras, or [Seattle to Portland](https://en.wikipedia.org/wiki/Seattle_to_Portland_Bicycle_Classic), as both happen the same weekend. We ended up deciding to do STP this year, and maybe I'll try to ride Death Ride another year.
 
 ### Training
 
@@ -27,7 +27,7 @@ My training in the weeks leading up to STP consisted of the following rides:
 - Week 5: [140 mile ride](https://www.strava.com/activities/11778940901) to Santa Rosa. I definitely started feeling the heat biking back to SF through wine country, and needed to slow down after 105 miles; however this ride felt decent overall and gave me confidence in completing STP.
 - Week 6: [59 mile ride](https://www.strava.com/activities/11824727302) to Half Moon Bay. I began to taper as I felt good enough from the Santa Rosa ride not to need further mileage
 
-In addition, we also rode the 88 mile [McKenzie Pass loop](https://www.strava.com/activities/11849168861) in central oregon a few days before STP on our drive up to Portland. This ride went over two mountain passes with amazing scenery. While the climbing training was not as relevant for STP, we rode this during a heat wave, so it helped out bodies acclimate more to the high temperatures.
+In addition, we also rode the [88 mile McKenzie Pass loop](https://www.strava.com/activities/11849168861) in central oregon a few days before STP on our drive up to Portland. This ride went over two mountain passes with amazing scenery. While the climbing training was not as relevant for STP, we rode this during a heat wave, so it helped out bodies acclimate more to the high temperatures.
 
 ### The Ride
 
@@ -77,3 +77,4 @@ Below is our obligatory finish photo, lying tired but happy on the grass at Holl
 
 ![Finish](https://lh3.googleusercontent.com/pw/AP1GczO8XQvwOeMriVvalimiEs5ID07vrWSKW6HuuSu7U15y2VViwBngtGP7juhcz64CzJDpJs7RYYo64HwGc1qR99Oo9oNamoUiV2aLjb5wplb49KCowsKi9grMaIqFRdWMfB8UDPF2_AL5YXe7JikkWIRjZg=w2582-h1936-s-no-gm)
 
+If there are any questions I can answer about the ride and planning for it, feel free to shoot me a message :)

@@ -11,7 +11,7 @@ In the past few years, I've really enjoyed exploring the outdoors through many s
 
 ## Cycling 🚴
 
-- *Jul 2024*, Seattle to Portland. [Strava](https://www.strava.com/activities/11882153043)
+- *Jul 2024*, Seattle to Portland. [Strava](https://www.strava.com/activities/11882153043), [Trip Report](/posts/stp)
 - *Dec 2023*, Generals Highway, Sequoia National Park. [Strava](https://www.strava.com/activities/10436278095)
 - *Jan 2022*, The Coast Ride: 380 miles over 3 days from San Francisco to Santa Barbara. Strava [D1](https://www.strava.com/activities/6530083722) [D2](https://www.strava.com/activities/6535905314) [D3](https://www.strava.com/activities/6540755937), [Trip Report](/posts/coast-ride)
 - *Oct 2021*, Hurricane Ridge: 5200ft climb in Olympic National Park. [Strava](https://www.strava.com/activities/6062839766)
