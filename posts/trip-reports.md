@@ -11,6 +11,7 @@ In the past few years, I've really enjoyed exploring the outdoors through many s
 
 ## Cycling
 
+- *Jul 2024*, Seattle to Portland. [Strava](https://www.strava.com/activities/11882153043)
 - *Dec 2023*, Generals Highway, Sequoia National Park. [Strava](https://www.strava.com/activities/10436278095)
 - *Jan 2022*, The Coast Ride: 380 miles over 3 days from San Francisco to Santa Barbara. Strava [D1](https://www.strava.com/activities/6530083722) [D2](https://www.strava.com/activities/6535905314) [D3](https://www.strava.com/activities/6540755937), [Trip Report](/posts/coast-ride)
 - *Oct 2021*, Hurricane Ridge: 5200ft climb in Olympic National Park. [Strava](https://www.strava.com/activities/6062839766)
@@ -56,6 +57,7 @@ Denali has been a life dream of mine, and I would love to get there one day. Oth
 
 ## Hiking / Other
 
+- *Jul 2024*, Mt. Hood Circumnavigation via Timberline Trail. [Strava](https://www.strava.com/activities/11901473187)
 - *Dec 2022*, Cactus to Clouds, 10500ft hike. [Strava](https://www.strava.com/activities/8287783603), [Trip Report](/posts/cactus-to-clouds)
 - *Aug 2022*, Choquequirao Incan Ruins R2R2R. [Strava](https://www.strava.com/activities/7617130684)
 - *Apr 2021*, Mauna Kea. [Strava](https://www.strava.com/activities/5112187456)
