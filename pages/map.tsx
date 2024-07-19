@@ -52,7 +52,7 @@ const statesIveVisited = [
   "Illinois",
   "Indiana",
   "Iowa",
-  "Kansas",
+  // "Kansas",
   "Kentucky",
   // "Louisiana",
   "Maine",
