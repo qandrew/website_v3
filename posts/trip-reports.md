@@ -57,7 +57,7 @@ Denali has been a life dream of mine, and I would love to get there one day. Oth
 
 ## Hiking / Other 🥾
 
-- *Jul 2024*, Mt. Hood Circumnavigation via Timberline Trail. [Strava](https://www.strava.com/activities/11901473187)
+- *Jul 2024*, Mt. Hood Circumnavigation via Timberline Trail. [Strava](https://www.strava.com/activities/11901473187), [Trip Report](/posts/timberline-trail)
 - *Dec 2022*, Cactus to Clouds, 10500ft hike. [Strava](https://www.strava.com/activities/8287783603), [Trip Report](/posts/cactus-to-clouds)
 - *Aug 2022*, Choquequirao Incan Ruins R2R2R. [Strava](https://www.strava.com/activities/7617130684)
 - *Apr 2021*, Mauna Kea. [Strava](https://www.strava.com/activities/5112187456)

@@ -33,7 +33,7 @@ In addition, we also rode the [88 mile McKenzie Pass loop](https://www.strava.co
 
 **Logistics** are a bit more complicated for STP if you don't live in Seattle or Portland. We ended up making this a road trip up to the PNW, as we drove from SF to Portland and did other adventures along the way. I took an Amtrak up to Seattle with my bike a few days prior and spent time with friends in Seattle. I then biked from Seattle to Portland, and STP provides baggage transport during the ride day. After STP, we continued our road trip back to San Francisco. The amtrak was quite comfortable to ride on.
 
-We also considered flying to Seattle / Portland, but packing / unpacking a bike is kind of annoying. If you have more time, I'd recommend making a road trip out of the event (as we also did a trail run around Mt. Hood and biked McKenzie pass), but otherwise getting to / from STP isn't the easiest.
+We also considered flying to Seattle / Portland, but packing / unpacking a bike is kind of annoying. If you have more time, I'd recommend making a road trip out of the event (as we also did a [trail run around Mt. Hood](/posts/timberline-trail) and biked McKenzie pass), but otherwise getting to / from STP isn't the easiest.
 
 **Nutrition** is extremely important for long endurance rides. In general, an athlete should consume 1.2 grams of carbohydrates per kilogram per hour of exercise. When the temperature is higher, one will sweat more, which will deplete the body of salt and electrolytes, so refueling electrolytes is also very important. Caffiene is also good to take, as it is a mild nervous system stimulant that helps delay fatigue and [enhances performance](https://www.trainingpeaks.com/blog/caffeine-and-the-endurance-athlete/).
 
