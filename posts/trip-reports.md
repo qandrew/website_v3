@@ -1,6 +1,6 @@
 ---
 title: 'Trip Reports'
-date: '2024-06-05'
+date: '2024-07-20'
 is_blog: false
 tags: ['trip-reports', 'skiing']
 ---
