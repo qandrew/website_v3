@@ -1,9 +1,11 @@
 ---
 title: "Why Burning Man was so special"
 date: "2024-09-13"
-is_blog: true
+is_blog: false
 tags: ["blog"]
 ---
+
+*Nice work navigating to this page :)*
 
 I came into Burning Man without much expectations, without really knowing much of what it is, other than having only heard great things from the people I know who went. I went to Burning Man in 2024 for the first time and had an amazing time.
 
