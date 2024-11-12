@@ -117,6 +117,52 @@ export default function MapboxFullscreen() {
       mapRef.current.setPaintProperty("state-borders", "fill-color", "#FF5722"); // Highlight color
     });
 
+    mapRef.current.on('load', () => {
+      mapRef.current.addSource('countries', {
+          type: 'vector',
+          url: 'mapbox://mapbox.country-boundaries-v1'
+      });
+
+      // Add a layer to display the country boundaries
+      mapRef.current.addLayer({
+          id: 'countries-fill',
+          type: 'fill',
+          source: 'countries',
+          'source-layer': 'country_boundaries',
+          paint: {
+              'fill-color': '#888888', // Default fill color
+              'fill-opacity': 0.4
+          }
+      });
+
+      // Add a border outline for better visibility
+      mapRef.current.addLayer({
+          id: 'countries-outline',
+          type: 'line',
+          source: 'countries',
+          'source-layer': 'country_boundaries',
+          paint: {
+              'line-color': '#ffffff',
+              'line-width': 1
+          }
+      });
+
+      // Example: Highlight a subset of countries
+      mapRef.current.setFilter('countries-fill', [
+          'in',
+          'iso_3166_1_alpha_3', // Property name for country ISO codes
+          'AUS', 'NZL',
+          'CAN', 'MEX', 'CUB', 'VIR', 'PAN', 'SLV', 'BHS', 'PRI',
+          'AUT', 'BEL', 'CZE', 'DNK', 'FRA', 'DEU', 'GRC', 'ISL', 'LUX', 'NLD', 'GBR', 'HUN', 'SVK', 'SVN', 'ESP', 'SWE', 'CHE', 'POL', 'ITA', 'VAT', 'CYP',
+          'ARG', 'BOL', 'ECU', 'BRA', 'CHL', 'PER',
+          'EGY', 'KEN',
+          // TODO: Chinese provinces?
+          'CHN', 'GUM', 'HKG', 'JPN', 'KOR', 'TWN', 'THA', 'TUR', 'VNM', 'PHL',
+
+      ]);
+      mapRef.current.setPaintProperty('countries-fill', 'fill-color', '#FF5722'); // Highlight color
+  });
+
     // for (const location of locations) {
     //   const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
     //     `<h1>${location.address?.name}</h1>
