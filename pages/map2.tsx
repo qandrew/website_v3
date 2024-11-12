@@ -5,6 +5,60 @@ import mapboxgl, { Map } from "mapbox-gl";
 
 import "mapbox-gl/dist/mapbox-gl.css";
 
+const statesIveVisited = [
+  // "Alabama",
+  "Alaska",
+  "Arizona",
+  // "Arkansas",
+  "California",
+  "Colorado",
+  "Connecticut",
+  "Delaware",
+  "District of Columbia",
+  "Florida",
+  "Georgia",
+  "Hawaii",
+  "Idaho",
+  "Illinois",
+  "Indiana",
+  "Iowa",
+  // "Kansas",
+  "Kentucky",
+  // "Louisiana",
+  "Maine",
+  "Maryland",
+  "Massachusetts",
+  "Michigan",
+  "Minnesota",
+  // "Mississippi",
+  "Missouri",
+  "Montana",
+  "Nebraska",
+  "Nevada",
+  "New Hampshire",
+  "New Jersey",
+  // "New Mexico",
+  "New York",
+  // "North Carolina",
+  // "North Dakota",
+  "Ohio",
+  // "Oklahoma",
+  "Oregon",
+  "Pennsylvania",
+  "Rhode Island",
+  // "South Carolina",
+  // "South Dakota",
+  "Tennessee",
+  "Texas",
+  "Utah",
+  "Vermont",
+  "Virginia",
+  "Washington",
+  "West Virginia",
+  "Wisconsin",
+  "Wyoming",
+];
+
 export default function MapboxFullscreen() {
   const mapRef = useRef<Map>();
   const mapContainerRef = useRef<HTMLDivElement>(null);
@@ -24,6 +78,44 @@ export default function MapboxFullscreen() {
     });
 
     mapRef.current.addControl(new mapboxgl.NavigationControl(), "top-left");
+
+    // Load GeoJSON data
+    mapRef.current.on("load", () => {
+      mapRef.current.addSource("us-states", {
+        type: "geojson",
+        data: "./map/us-states.json", // Replace with actual GeoJSON path
+      });
+
+      // Add the layer to display US state borders
+      mapRef.current.addLayer({
+        id: "state-borders",
+        type: "fill",
+        source: "us-states",
+        paint: {
+          "fill-color": "#888888", // Default fill color
+          "fill-opacity": 0.4,
+        },
+      });
+
+      // Add a border outline for better visibility
+      mapRef.current.addLayer({
+        id: "state-borders-outline",
+        type: "line",
+        source: "us-states",
+        paint: {
+          "line-color": "#ffffff",
+          "line-width": 2,
+        },
+      });
+
+      // Example: Highlight a subset of states by adding a filter
+      mapRef.current.setFilter("state-borders", [
+        "in",
+        "name", // Replace with the property name for state abbreviation
+        ...statesIveVisited
+      ]);
+      mapRef.current.setPaintProperty("state-borders", "fill-color", "#FF5722"); // Highlight color
+    });
 
     // for (const location of locations) {
     //   const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
@@ -66,7 +158,7 @@ export default function MapboxFullscreen() {
   }
 
   return (
-    <div id="markerpopupmap" style={{ width: "100%", height: "100vh" }} >
+    <div id="markerpopupmap" style={{ width: "100%", height: "100vh" }}>
       <div
         style={{ width: "100%", height: "100%" }}
         id="map-container"
