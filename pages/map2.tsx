@@ -4,69 +4,17 @@ import { useRef, useEffect } from "react";
 import mapboxgl, { Map } from "mapbox-gl";
 
 import "mapbox-gl/dist/mapbox-gl.css";
-
-const statesIveVisited = [
-  // "Alabama",
-  "Alaska",
-  "Arizona",
-  // "Arkansas",
-  "California",
-  "Colorado",
-  "Connecticut",
-  "Delaware",
-  "District of Columbia",
-  "Florida",
-  "Georgia",
-  "Hawaii",
-  "Idaho",
-  "Illinois",
-  "Indiana",
-  "Iowa",
-  // "Kansas",
-  "Kentucky",
-  // "Louisiana",
-  "Maine",
-  "Maryland",
-  "Massachusetts",
-  "Michigan",
-  "Minnesota",
-  // "Mississippi",
-  "Missouri",
-  "Montana",
-  "Nebraska",
-  "Nevada",
-  "New Hampshire",
-  "New Jersey",
-  // "New Mexico",
-  "New York",
-  // "North Carolina",
-  // "North Dakota",
-  "Ohio",
-  // "Oklahoma",
-  "Oregon",
-  "Pennsylvania",
-  "Rhode Island",
-  // "South Carolina",
-  // "South Dakota",
-  "Tennessee",
-  "Texas",
-  "Utah",
-  "Vermont",
-  "Virginia",
-  "Washington",
-  "West Virginia",
-  "Wisconsin",
-  "Wyoming",
-];
-
-const provinces = [
-  "香港", "上海", "天津", "北京", "重庆", "河北", "山西", "黑龙江", "海南", "江苏", "浙江", "安徽", "山西", "山东", "湖北", "河北", "湖南", "广东", "陕西", "云南", "四川", "内蒙古", "河南"
-]
+import {
+  CHINESE_PROVINCES,
+  COUNTRIES,
+  highlightColor,
+  LOCATIONS,
+  STATES_IVE_VISITED,
+} from "../components/map_constants";
 
 export default function MapboxFullscreen() {
   const mapRef = useRef<Map>();
   const mapContainerRef = useRef<HTMLDivElement>(null);
-  // const [opened, { open, close }] = useDisclosure(false);
 
   useEffect(() => {
     if (!mapContainerRef.current) {
@@ -77,7 +25,7 @@ export default function MapboxFullscreen() {
     mapRef.current = new mapboxgl.Map({
       container: mapContainerRef.current,
       center: [-122.4194, 37.7749],
-      zoom: 10.12,
+      zoom: 6,
       style: "mapbox://styles/mapbox/outdoors-v12",
     });
 
@@ -108,7 +56,7 @@ export default function MapboxFullscreen() {
         source: "us-states",
         paint: {
           "line-color": "#ffffff",
-          "line-width": 2,
+          "line-width": 1,
         },
       });
 
@@ -116,9 +64,13 @@ export default function MapboxFullscreen() {
       mapRef.current.setFilter("state-borders", [
         "in",
         "name", // Replace with the property name for state abbreviation
-        ...statesIveVisited,
+        ...STATES_IVE_VISITED,
       ]);
-      mapRef.current.setPaintProperty("state-borders", "fill-color", "#FF5722"); // Highlight color
+      mapRef.current.setPaintProperty(
+        "state-borders",
+        "fill-color",
+        highlightColor
+      ); // Highlight color
     });
 
     // Load GeoJSON data
@@ -146,7 +98,7 @@ export default function MapboxFullscreen() {
         source: "cn-provinces",
         paint: {
           "line-color": "#ffffff",
-          "line-width": 2,
+          "line-width": 1,
         },
       });
 
@@ -154,68 +106,69 @@ export default function MapboxFullscreen() {
       mapRef.current.setFilter("cn-borders", [
         "in",
         "name", // Replace with the property name for state abbreviation
-        ...provinces,
+        ...CHINESE_PROVINCES,
       ]);
-      mapRef.current.setPaintProperty("cn-borders", "fill-color", "#FF5722"); // Highlight color
-    });
-    
-      mapRef.current.on('load', () => {
-        mapRef.current.addSource('countries', {
-            type: 'vector',
-            url: 'mapbox://mapbox.country-boundaries-v1'
-        });
-
-        // Add a layer to display the country boundaries
-        mapRef.current.addLayer({
-            id: 'countries-fill',
-            type: 'fill',
-            source: 'countries',
-            'source-layer': 'country_boundaries',
-            paint: {
-                'fill-color': '#888888', // Default fill color
-                'fill-opacity': 0.4
-            }
-        });
-
-        // Add a border outline for better visibility
-        mapRef.current.addLayer({
-            id: 'countries-outline',
-            type: 'line',
-            source: 'countries',
-            'source-layer': 'country_boundaries',
-            paint: {
-                'line-color': '#ffffff',
-                'line-width': 1
-            }
-        });
-
-        // Example: Highlight a subset of countries
-        mapRef.current.setFilter('countries-fill', [
-            'in',
-            'iso_3166_1_alpha_3', // Property name for country ISO codes
-            'AUS', 'NZL',
-            'CAN', 'MEX', 'CUB', 'VIR', 'PAN', 'SLV', 'BHS', 'PRI',
-            'AUT', 'BEL', 'CZE', 'DNK', 'FRA', 'DEU', 'GRC', 'ISL', 'LUX', 'NLD', 'GBR', 'HUN', 'SVK', 'SVN', 'ESP', 'SWE', 'CHE', 'POL', 'ITA', 'VAT', 'CYP',
-            'ARG', 'BOL', 'ECU', 'BRA', 'CHL', 'PER',
-            'EGY', 'KEN',
-            'GUM', 'HKG', 'JPN', 'KOR', 'TWN', 'THA', 'TUR', 'VNM', 'PHL',
-
-        ]);
-        mapRef.current.setPaintProperty('countries-fill', 'fill-color', '#FF5722'); // Highlight color
+      mapRef.current.setPaintProperty(
+        "cn-borders",
+        "fill-color",
+        highlightColor
+      ); // Highlight color
     });
 
-    // for (const location of locations) {
-    //   const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
-    //     `<h1>${location.address?.name}</h1>
-    //     <p>${location.address?.details.elevation}m</p>
-    //     <p><a href="/location/${location.id}">View Details</a></p>`
-    //   );
+    mapRef.current.on("load", () => {
+      mapRef.current.addSource("countries", {
+        type: "vector",
+        url: "mapbox://mapbox.country-boundaries-v1",
+      });
 
-    //   new mapboxgl.Marker()
-    //     .setLngLat([location.longitude, location.latitude])
-    //     .setPopup(popup) // sets a popup on this marker
-    //     .addTo(mapRef.current);
-    // }
+      // Add a layer to display the country boundaries
+      mapRef.current.addLayer({
+        id: "countries-fill",
+        type: "fill",
+        source: "countries",
+        "source-layer": "country_boundaries",
+        paint: {
+          "fill-color": "#888888", // Default fill color
+          "fill-opacity": 0.4,
+        },
+      });
+
+      // Add a border outline for better visibility
+      mapRef.current.addLayer({
+        id: "countries-outline",
+        type: "line",
+        source: "countries",
+        "source-layer": "country_boundaries",
+        paint: {
+          "line-color": "#ffffff",
+          "line-width": 1,
+        },
+      });
+
+      // Example: Highlight a subset of countries
+      mapRef.current.setFilter("countries-fill", [
+        "in",
+        "iso_3166_1_alpha_3", // Property name for country ISO codes
+        ...COUNTRIES,
+      ]);
+      mapRef.current.setPaintProperty(
+        "countries-fill",
+        "fill-color",
+        highlightColor
+      ); // Highlight color
+    });
+
+    for (const location of LOCATIONS) {
+      const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
+        `<h1>${location.name}</h1>
+        <p>I lived here</p>`
+      );
+
+      new mapboxgl.Marker()
+        .setLngLat([location.longitude, location.latitude])
+        .setPopup(popup) // sets a popup on this marker
+        .addTo(mapRef.current);
+    }
 
     return () => {
       if (mapRef.current) {
@@ -223,26 +176,6 @@ export default function MapboxFullscreen() {
       }
     };
   }, []);
-
-  function handleFlyTo({
-    longitude,
-    latitude,
-  }: {
-    longitude: number;
-    latitude: number;
-  }) {
-    if (!mapRef.current) {
-      return;
-    }
-
-    mapRef.current.flyTo({
-      center: [longitude, latitude],
-      zoom: 14,
-      speed: 2, // make the flying slow
-      curve: 1, // smoothness of the flight path
-      essential: true,
-    });
-  }
 
   return (
     <div id="markerpopupmap" style={{ width: "100%", height: "100vh" }}>
