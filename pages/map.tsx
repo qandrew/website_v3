@@ -3,13 +3,16 @@ import React, { useEffect, useState } from "react";
 import "ol/ol.css";
 import Map from "ol/Map";
 import View from "ol/View";
-import { OGCMapTile, Vector as VectorSource } from "ol/source.js";
-import { Tile as TileLayer, Vector as VectorLayer } from "ol/layer.js";
+import { OGCMapTile, OSM, Vector as VectorSource } from "ol/source.js";
+import { Layer, Tile as TileLayer, Vector, Vector as VectorLayer } from "ol/layer.js";
 import Overlay from "ol/Overlay";
 import { fromLonLat } from "ol/proj.js";
 import Fill from "ol/style/Fill";
 import Stroke from "ol/style/Stroke";
 import Style from "ol/style/Style";
+import Feature from "ol/Feature";
+import Point from "ol/geom/Point";
+import Icon from "ol/style/Icon";
 
 // TODO: add more images
 const statesWithData: Record<string, { imageSrc: string }> = {
@@ -31,7 +34,7 @@ const statesWithData: Record<string, { imageSrc: string }> = {
   },
   Arizona: {
     imageSrc:
-      "https://lh3.googleusercontent.com/pw/AP1GczOYC1rpmRJGF5R5jEv2Gq8LNyJ0Gxt5Gy0fHgyn2qbBs0C8qv7KTdbk65HRu0mDt85hOgg5ehhVfzo6yilMsi0bco61FCapgAh5nzURMYa2PWeeBhcWTRDisYj8KW4ocpT_JVxjocWSufaMh-Y9cN6G7A=w1458-h1936-s-no-gm"
+      "https://lh3.googleusercontent.com/pw/AP1GczOYC1rpmRJGF5R5jEv2Gq8LNyJ0Gxt5Gy0fHgyn2qbBs0C8qv7KTdbk65HRu0mDt85hOgg5ehhVfzo6yilMsi0bco61FCapgAh5nzURMYa2PWeeBhcWTRDisYj8KW4ocpT_JVxjocWSufaMh-Y9cN6G7A=w1458-h1936-s-no-gm",
   },
 };
 
@@ -123,10 +126,11 @@ export default function map() {
     });
 
     const rasterLayer = new TileLayer({
-      source: new OGCMapTile({
-        url: "https://maps.gnosis.earth/ogcapi/collections/NaturalEarth:raster:HYP_HR_SR_OB_DR/map/tiles/WebMercatorQuad",
-        crossOrigin: "",
-      }),
+      // source: new OGCMapTile({
+      //   url: "https://maps.gnosis.earth/ogcapi/collections/NaturalEarth:raster:HYP_HR_SR_OB_DR/map/tiles/WebMercatorQuad",
+      //   crossOrigin: "",
+      // }),
+      source: new OSM()
     });
 
     const container = document.getElementById("popup");
@@ -139,8 +143,34 @@ export default function map() {
       },
     });
 
+    const iconFeature = new Feature({
+      geometry: new Point(fromLonLat([-122, 37])),
+      name: 'Null Island',
+      population: 4000,
+      rainfall: 500,
+    });
+    
+    const iconStyle = new Style({
+      image: new Icon({
+        anchor: [0.5, 46],
+        anchorXUnits: 'fraction',
+        anchorYUnits: 'pixels',
+        src: 'https://png.pngtree.com/png-vector/20190411/ourmid/pngtree-vector-globe-internet-web-online-monitor-icon-png-image_925332.jpg',
+      }),
+    });
+    
+    iconFeature.setStyle(iconStyle);
+    
+    const vectorSource = new VectorSource({
+      features: [iconFeature],
+    });
+    
+    const vectorLayer = new VectorLayer({
+      source: vectorSource,
+    });
+
     const map = new Map({
-      layers: [rasterLayer, statesLayer],
+      layers: [rasterLayer, vectorLayer],
       target: "markerpopupmap",
       // TODO: limit map zoom to US?
       view: new View({
@@ -149,6 +179,36 @@ export default function map() {
       }),
       overlays: [overlay],
     });
+    
+
+    // // const markers = new Layer.Markers( "Markers" );
+    // // map.addLayer(markers);
+
+    // // var size = new OpenLayers.Size(21,25);
+    // // var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
+    // // var icon = new OpenLayers.Icon('marker.png', size, offset);
+    // // markers.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat(106.8478695,-6.1568562),icon));
+    // // markers.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat(106.8478695,-6.1568562),icon.clone()));
+
+    // // Create a marker feature
+    // var marker = new Feature({
+    //   geometry: new Point(fromLonLat([0, 0])), // Set the marker position to (0, 0)
+    // });
+
+    // // Create a vector source and add the marker to it
+    // var vectorSource = new Vector({
+    //   features: [marker],
+    // });
+
+    // const vectorLayer = new VectorLayer({
+    //   source: vectorSource,
+    //   style: new Style({
+    //     image: new Icon({
+    //       anchor: [0.5, 1],
+    //       src: "https://openlayers.org/en/latest/examples/data/icon.png", // URL to your marker icon
+    //     }),
+    //   }),
+    // });
 
     /**
      * Add a click handler to the map to render the popup.
