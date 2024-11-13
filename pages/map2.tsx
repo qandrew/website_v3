@@ -59,6 +59,10 @@ const statesIveVisited = [
   "Wyoming",
 ];
 
+const provinces = [
+  "香港", "上海", "天津", "北京", "重庆", "河北", "山西", "黑龙江", "海南", "江苏", "浙江", "安徽", "山西", "山东", "湖北", "河北", "湖南", "广东", "陕西", "云南", "四川", "内蒙古", "河南"
+]
+
 export default function MapboxFullscreen() {
   const mapRef = useRef<Map>();
   const mapContainerRef = useRef<HTMLDivElement>(null);
@@ -112,56 +116,93 @@ export default function MapboxFullscreen() {
       mapRef.current.setFilter("state-borders", [
         "in",
         "name", // Replace with the property name for state abbreviation
-        ...statesIveVisited
+        ...statesIveVisited,
       ]);
       mapRef.current.setPaintProperty("state-borders", "fill-color", "#FF5722"); // Highlight color
     });
 
-    mapRef.current.on('load', () => {
-      mapRef.current.addSource('countries', {
-          type: 'vector',
-          url: 'mapbox://mapbox.country-boundaries-v1'
+    // Load GeoJSON data
+    mapRef.current.on("load", () => {
+      mapRef.current.addSource("cn-provinces", {
+        type: "geojson",
+        data: "./map/chinese-provinces.json", // Replace with actual GeoJSON path
       });
 
-      // Add a layer to display the country boundaries
+      // Add the layer to display US state borders
       mapRef.current.addLayer({
-          id: 'countries-fill',
-          type: 'fill',
-          source: 'countries',
-          'source-layer': 'country_boundaries',
-          paint: {
-              'fill-color': '#888888', // Default fill color
-              'fill-opacity': 0.4
-          }
+        id: "cn-borders",
+        type: "fill",
+        source: "cn-provinces",
+        paint: {
+          "fill-color": "#888888", // Default fill color
+          "fill-opacity": 0.4,
+        },
       });
 
       // Add a border outline for better visibility
       mapRef.current.addLayer({
-          id: 'countries-outline',
-          type: 'line',
-          source: 'countries',
-          'source-layer': 'country_boundaries',
-          paint: {
-              'line-color': '#ffffff',
-              'line-width': 1
-          }
+        id: "cn-borders-outline",
+        type: "line",
+        source: "cn-provinces",
+        paint: {
+          "line-color": "#ffffff",
+          "line-width": 2,
+        },
       });
 
-      // Example: Highlight a subset of countries
-      mapRef.current.setFilter('countries-fill', [
-          'in',
-          'iso_3166_1_alpha_3', // Property name for country ISO codes
-          'AUS', 'NZL',
-          'CAN', 'MEX', 'CUB', 'VIR', 'PAN', 'SLV', 'BHS', 'PRI',
-          'AUT', 'BEL', 'CZE', 'DNK', 'FRA', 'DEU', 'GRC', 'ISL', 'LUX', 'NLD', 'GBR', 'HUN', 'SVK', 'SVN', 'ESP', 'SWE', 'CHE', 'POL', 'ITA', 'VAT', 'CYP',
-          'ARG', 'BOL', 'ECU', 'BRA', 'CHL', 'PER',
-          'EGY', 'KEN',
-          // TODO: Chinese provinces?
-          'CHN', 'GUM', 'HKG', 'JPN', 'KOR', 'TWN', 'THA', 'TUR', 'VNM', 'PHL',
-
+      // Example: Highlight a subset of states by adding a filter
+      mapRef.current.setFilter("cn-borders", [
+        "in",
+        "name", // Replace with the property name for state abbreviation
+        ...provinces,
       ]);
-      mapRef.current.setPaintProperty('countries-fill', 'fill-color', '#FF5722'); // Highlight color
-  });
+      mapRef.current.setPaintProperty("cn-borders", "fill-color", "#FF5722"); // Highlight color
+    });
+    
+      mapRef.current.on('load', () => {
+        mapRef.current.addSource('countries', {
+            type: 'vector',
+            url: 'mapbox://mapbox.country-boundaries-v1'
+        });
+
+        // Add a layer to display the country boundaries
+        mapRef.current.addLayer({
+            id: 'countries-fill',
+            type: 'fill',
+            source: 'countries',
+            'source-layer': 'country_boundaries',
+            paint: {
+                'fill-color': '#888888', // Default fill color
+                'fill-opacity': 0.4
+            }
+        });
+
+        // Add a border outline for better visibility
+        mapRef.current.addLayer({
+            id: 'countries-outline',
+            type: 'line',
+            source: 'countries',
+            'source-layer': 'country_boundaries',
+            paint: {
+                'line-color': '#ffffff',
+                'line-width': 1
+            }
+        });
+
+        // Example: Highlight a subset of countries
+        mapRef.current.setFilter('countries-fill', [
+            'in',
+            'iso_3166_1_alpha_3', // Property name for country ISO codes
+            'AUS', 'NZL',
+            'CAN', 'MEX', 'CUB', 'VIR', 'PAN', 'SLV', 'BHS', 'PRI',
+            'AUT', 'BEL', 'CZE', 'DNK', 'FRA', 'DEU', 'GRC', 'ISL', 'LUX', 'NLD', 'GBR', 'HUN', 'SVK', 'SVN', 'ESP', 'SWE', 'CHE', 'POL', 'ITA', 'VAT', 'CYP',
+            'ARG', 'BOL', 'ECU', 'BRA', 'CHL', 'PER',
+            'EGY', 'KEN',
+            'GUM', 'HKG', 'JPN', 'KOR', 'TWN', 'THA', 'TUR', 'VNM', 'PHL',
+
+        ]);
+        mapRef.current.setPaintProperty('countries-fill', 'fill-color', '#FF5722'); // Highlight color
+    });
 
     // for (const location of locations) {
     //   const popup = new mapboxgl.Popup({ offset: 25 }).setHTML(
