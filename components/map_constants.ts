@@ -30,7 +30,7 @@ export const STATES_IVE_VISITED = [
   "Nevada",
   "New Hampshire",
   "New Jersey",
-  // "New Mexico",
+  "New Mexico",
   "New York",
   // "North Carolina",
   // "North Dakota",
