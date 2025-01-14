@@ -1,10 +1,10 @@
-import Head from 'next/head';
-import Link from 'next/link';
-import Image from 'next/image';
-import Date from '../components/date';
-import Layout, { siteTitle } from '../components/layout';
-import { getSortedPostsData } from '../lib/posts';
-import React from 'react';
+import Head from "next/head";
+import Link from "next/link";
+import Image from "next/image";
+import Date from "../components/date";
+import Layout, { siteTitle } from "../components/layout";
+import { getSortedPostsData } from "../lib/posts";
+import React from "react";
 
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
@@ -25,7 +25,7 @@ function Home({ allPostsData }) {
         <Image
           src="https://lh3.googleusercontent.com/pw/AM-JKLWFJrFogZLv_Qf_OLvTsijyLVBUqK7wGLG1ZrRE8oO5WBlJfzhMCk2IS7L4v1Va0AwceR7XeZoc7jNXB7GFGbE5Yar3LpGua2M50c27AlJouyb_0V3zST5QY_JRRqjkUFJJiRsVN3ORJbxmhuZXkik3=w1430-h953-no"
           layout="fill"
-            // TODO: rounded edge with objectfit contain
+          // TODO: rounded edge with objectfit contain
           objectFit="contain"
           priority
         />
@@ -34,68 +34,49 @@ function Home({ allPostsData }) {
       <article className="prose max-w-none">
         <section>
           <p>
-            Hello, I&apos;m
-            {' '}
-            <b>Andrew</b>
-            . This website is a creative outlet for me to blog about things I care about in
-            {' '}
-            <Link href="/posts/projects">computer science</Link>
-            ,
-            {' '}
-            <Link href="/posts/trip-reports">the outdoors</Link>
-            , and
-            {' '}
-            <Link href="photos">photography</Link>
-            .
+            Hello, I&apos;m <b>Andrew</b>. This website is a creative outlet for
+            me to blog about things I care about in{" "}
+            <Link href="/posts/projects">computer science</Link>,{" "}
+            <Link href="/posts/trip-reports">the outdoors</Link>, and{" "}
+            <Link href="photos">photography</Link>.
           </p>
           <p>
-            I might put together a page about myself later,
-            as this website is still a work in progress.
-            In the mean time you can check out my other profiles:
-            {' '}
-            <a href="https://www.strava.com/athletes/9473624">strava</a>
-            ,
-            {' '}
-            <a href="https://github.com/qandrew">github</a>
-            ,
-            {' '}
-            <a href="https://www.linkedin.com/in/andrewhxia/">linkedin</a>
-            ,
-            {' '}
-            <a href="https://www.facebook.com/qandr3w">facebook</a>
-            ,
-            {' '}
-            <a href="https://www.youtube.com/channel/UCBMRsvbl5-NcJ5dsIoY9ZcQ">youtube</a>
-            , and
-            {' '}
-            <a href="mailto:axia-github@mit.edu">email</a>
-            .
+            I might put together a page about myself later, as this website is
+            still a work in progress. In the mean time you can check out my
+            other profiles:{" "}
+            <a href="https://www.strava.com/athletes/9473624">strava</a>,{" "}
+            <a href="https://github.com/qandrew">github</a>,{" "}
+            <a href="https://www.linkedin.com/in/andrewhxia/">linkedin</a>,{" "}
+            <a href="https://www.facebook.com/qandr3w">facebook</a>,{" "}
+            <a href="https://www.youtube.com/channel/UCBMRsvbl5-NcJ5dsIoY9ZcQ">
+              youtube
+            </a>
+            , and <a href="mailto:axia-github@mit.edu">email</a>.
           </p>
         </section>
 
         <section>
           <h2>Blog</h2>
           <ul className="m-0">
-            {allPostsData.map(({
-              id, date, title, tags,
-            }) => (
+            {allPostsData.map(({ id, date, title, tags }) => (
               <li className="p-0" key={id}>
                 <Link href={`/posts/${id}`}>
                   <a>{title}</a>
-                </Link>
-                {' '}
-                { tags && (
-                <>
-                  {tags.map((tag) => (
-                    <>
+                </Link>{" "}
+                {tags && (
+                  <>
+                    {tags.map((tag) => (
+                      <>
                         &nbsp;&nbsp;
-                      {/* TODO: hover pointer */}
-                      <Link href={`/tags/${tag}`}>
-                        <small><a className="text-gray-600">{tag}</a></small>
-                      </Link>
-                    </>
-                  ))}
-                </>
+                        {/* TODO: hover pointer */}
+                        <Link href={`/tags/${tag}`}>
+                          <small>
+                            <a className="text-gray-600">{tag}</a>
+                          </small>
+                        </Link>
+                      </>
+                    ))}
+                  </>
                 )}
                 &nbsp;&nbsp;
                 <small className="text-gray-600">
