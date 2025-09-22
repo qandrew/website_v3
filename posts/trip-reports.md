@@ -53,7 +53,8 @@ Also check out my [2021-2022 Season Review](/posts/21-22-ski-season)!
 Denali has been a life dream of mine, and I would love to get there one day. Other mountains that I attempted include: Pico Austria in Bolivia, attempt on [Cerro El Plomo](/posts/el-plomo), attempt on Siguniang.
 
 ## Running 🏃
-- *Dec 2024*, California International Marathon. 3:06:04. [Strava](https://www.strava.com/activities/13074981571), [Trip Report](/posts/cim-2024)
+- *Dec 2024*, California International Marathon. 3:06:04. [Strava](https://www.strava.com/activities/13074981571), [Race Report](/posts/cim-2024)
+- *Aug 2023*, Santa Rosa Half Marathon. [Strava](https://www.strava.com/activities/9732193640)
 - *Jun 2023*, Broken Arrow "46k" Skyrace. [Strava](https://www.strava.com/activities/9285148031)
 - *Dec 2022*, California International Marathon. 3:21:36. [Strava](https://www.strava.com/activities/8207881941)
 - *Apr 2019*, Santiago de Chile Marathon. [Strava](https://www.strava.com/activities/2272665421/overview)
