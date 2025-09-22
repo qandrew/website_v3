@@ -1,6 +1,6 @@
 ---
 title: 'Trip Reports'
-date: '2024-12-13'
+date: '2025-09-21'
 is_blog: false
 tags: ['trip-reports', 'skiing']
 ---
@@ -11,6 +11,8 @@ In the past few years, I've really enjoyed exploring the outdoors through many s
 
 ## Cycling 🚴
 
+- *Jul 2025*, Death Ride (aka Tour of the California Alps). [Strava](https://www.strava.com/activities/15094366683)
+- *Jun 2025*, Climb to Kaiser. [Strava](https://www.strava.com/activities/14875462364)
 - *Jul 2024*, Seattle to Portland. [Strava](https://www.strava.com/activities/11882153043), [Trip Report](/posts/stp)
 - *Dec 2023*, Generals Highway, Sequoia National Park. [Strava](https://www.strava.com/activities/10436278095)
 - *Jan 2022*, The Coast Ride: 380 miles over 3 days from San Francisco to Santa Barbara. Strava [D1](https://www.strava.com/activities/6530083722) [D2](https://www.strava.com/activities/6535905314) [D3](https://www.strava.com/activities/6540755937), [Trip Report](/posts/coast-ride)
@@ -21,7 +23,7 @@ In the past few years, I've really enjoyed exploring the outdoors through many s
 - *Feb 2019*, Valle Nevado, Chile. 8000ft climb. [Strava](https://www.strava.com/activities/2137462481)
 - *Jul 2018*, Six Gaps, Vermont. [Strava](https://www.strava.com/activities/1672779754)
 
-Some other interesting rides: Embalse de Yeso (Chile), Pt Reyes Lighthouse, Wachusett Mountain, Vancouver's triple crown, West Maui Loop, Palomar. Feel free to message me about road bike recs in Hawaii, San Francisco, Boston, Santiago de Chile, or Vancouver.
+Some other interesting rides: Copper Triangle, Embalse de Yeso (Chile), Pt Reyes Lighthouse, Wachusett Mountain, Vancouver's triple crown, West Maui Loop, Palomar. Feel free to message me about road bike recs in Hawaii, San Francisco, Boston, Santiago de Chile, or Vancouver.
 
 ## Backcountry Skiing ⛷️
 
