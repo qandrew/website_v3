@@ -17,7 +17,7 @@ export const STATES_IVE_VISITED = [
   "Iowa",
   // "Kansas",
   "Kentucky",
-  // "Louisiana",
+  "Louisiana",
   "Maine",
   "Maryland",
   "Massachusetts",
@@ -126,6 +126,8 @@ export const COUNTRIES = [
   "THA",
   "TUR",
   "VNM",
+  "MYS",
+  "KHM",
   "PHL", // Asia
 ];
 
